@@ -22,6 +22,27 @@ In the evolving field of mobile brain imaging using electroencephalography (EEG)
 
 To achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.
 
+### Related Projects 
+[ICMoBI](https://www.icmobi.org/)         : This is a collaborative project dedicated to identifying Independent Components of Mobile Brain Imaging.      
+[EEGManyLabs](https://osf.io/yb3pq/)      : Investigating the replicability of influential EEG experiments.     
+[EEGManyPipelines](https://eegmanypipelines.github.io/) : A large-scale, grassroots multi-analyst study of electroencephalography analysis practices in the wild.     
+[ARTEM-IS](https://www.incf.org/sig/incf-working-group-artemis) : Design guidelines for evidence-based EEG methodology reporting tools.     
+
+### Recommended Reading 
+Richer, N., Bradford, J. C., & Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience & Biobehavioral Reviews, 105718.
+
+Niso, G., Romero, E., Moreau, J. T., Araujo, A., & Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.
+
+Niso, G., Krol, L. R., Combrisson, E., Dubarry, A. S., Elliott, M. A., François, C., ... & Chaumon, M. (2022). Good scientific practice in EEG and MEG research: Progress and perspectives. NeuroImage, 257, 119056.
+
+Jacobsen, N. S. J., Blum, S., Witt, K., & Debener, S. (2021). A walk in the park? Characterizing gait‐related artifacts in mobile EEG recordings. European Journal of Neuroscience, 54(12), 8421-8440.
+
+Styles, S. J., Ković, V., Ke, H., & Šoškić, A. (2021). Towards ARTEM-IS: Design guidelines for evidence-based EEG methodology reporting tools. NeuroImage, 245, 118721.
+
+Keil, A., Debener, S., Gratton, G., Junghöfer, M., Kappenman, E. S., Luck, S. J., ... & Yee, C. M. (2014). Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography. Psychophysiology, 51(1), 1-21.
+
+
+
 ### Methodology
 
 1. **Data Sources**: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.
@@ -99,24 +120,4 @@ graph TD
     A --> B5
 
 ```
-
-### Related Projects 
-[ICMoBI](https://www.icmobi.org/)         : This is a collaborative project dedicated to identifying Independent Components of Mobile Brain Imaging.      
-[EEGManyLabs](https://osf.io/yb3pq/)      : Investigating the replicability of influential EEG experiments.     
-[EEGManyPipelines](https://eegmanypipelines.github.io/) : A large-scale, grassroots multi-analyst study of electroencephalography analysis practices in the wild.     
-[ARTEM-IS](https://www.incf.org/sig/incf-working-group-artemis) : Design guidelines for evidence-based EEG methodology reporting tools.     
-
-### Recommended Reading 
-Richer, N., Bradford, J. C., & Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience & Biobehavioral Reviews, 105718.
-
-Niso, G., Romero, E., Moreau, J. T., Araujo, A., & Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.
-
-Niso, G., Krol, L. R., Combrisson, E., Dubarry, A. S., Elliott, M. A., François, C., ... & Chaumon, M. (2022). Good scientific practice in EEG and MEG research: Progress and perspectives. NeuroImage, 257, 119056.
-
-Jacobsen, N. S. J., Blum, S., Witt, K., & Debener, S. (2021). A walk in the park? Characterizing gait‐related artifacts in mobile EEG recordings. European Journal of Neuroscience, 54(12), 8421-8440.
-
-Styles, S. J., Ković, V., Ke, H., & Šoškić, A. (2021). Towards ARTEM-IS: Design guidelines for evidence-based EEG methodology reporting tools. NeuroImage, 245, 118721.
-
-Keil, A., Debener, S., Gratton, G., Junghöfer, M., Kappenman, E. S., Luck, S. J., ... & Yee, C. M. (2014). Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography. Psychophysiology, 51(1), 1-21.
-
 

@@ -29,6 +29,8 @@ To achieve this, we will standardize data acquisition and analysis protocols, al
 [ARTEM-IS](https://www.incf.org/sig/incf-working-group-artemis) : Design guidelines for evidence-based EEG methodology reporting tools.     
 
 ### Recommended Reading 
+Grasso-Cladera, A., Bremer, M., Ladouce, S., & Parada, F. (2024). A systematic review of mobile brain/body imaging studies using the P300 event-related potentials to investigate cognition beyond the laboratory. Cognitive, Affective, & Behavioral Neuroscience, 1-29.
+
 Richer, N., Bradford, J. C., & Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience & Biobehavioral Reviews, 105718.
 
 Niso, G., Romero, E., Moreau, J. T., Araujo, A., & Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.

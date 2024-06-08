@@ -63,6 +63,7 @@ Additionally, there are 5 work packages (WPs) which take care of specific tasks.
 - [John Iversen](mailto:?subject=EEGManyLabs)
 - [Klaus Gramann](mailto:klaus.gramann@tu-berlin.de?subject=EEGManyLabs)
 - [Mathias Vukelic](mailto:mathias.vukelic@iao.fraunhofer.de?subject=EEGManyLabs)
+- [Pierfilippo De Sanctis](mailto:pierfilippo.Desanctis@einstein.yu.edu)
 - [Stefan Debener](mailto:stefan.debener@uol.de?subject=EEGManyLabs)
 
 

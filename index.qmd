@@ -1,0 +1,97 @@
+---
+title: "EEGManySteps"
+---
+
+#  Motivation statement 
+
+
+The use of multimodal data sets is a common practice in the field of mobile neuroimaging. The field however suffers from a lack of a unified system for curation of data. Despite the high cost of creating these valuable scientific materials, discontinued projects and academic positions often leave the data sets or software packages unmaintained, making them difficult to use or scrutinise. 
+The issues stem from more fundamental structural problems in academia, including the lack of occupational stability of researchers themselves or funding for hiring professional developers. The effect is amplified by the lack of hands-on training opportunities and the insufficient incentives for maintaining open-source software tools, despite the science community’s high reliance on them. The psychological dynamics surrounding these issues are equally important, as they influence how researchers perceive and engage with OS practices. While the actionable solutions to the structural problems are elusive from the perspective of an early career researcher, we are committed to being vocal about the issues and fostering an environment where OS is the norm, in addition to making tangible contributions to the extent possible.
+
+
+# Project
+EEGManySteps is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. We strive to implement good scientific practices, by informing peers of the concept, pointing them to tools, and implementing guidelines within the group.
+
+## Background
+In the evolving field of mobile brain imaging using electroencephalography (EEG), understanding how different experimental setups influence results is crucial. **EEGManySteps** is an international collaborative effort aimed at collecting and analyzing EEG data across multiple laboratories to investigate these influences, with a specific focus on gait-related independent components.
+
+**EEGManySteps** differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results. 
+
+To achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.
+
+### Methodology
+
+1. **Data Sources**: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.
+
+2. **Standardization**: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the Brain Imaging Data Structure (BIDS) format.
+
+3. **Data Format**: All data will be converted to the BIDS format and made available on OpenNeuro, an open-access database that supports the sharing and re-use of neuroimaging data. This will enhance the accessibility and utility of the data for future research.
+
+4. **Community Engagement**: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different EEG setups impact findings.
+
+### Expected Outcomes and Future Directions
+
+**EEGManySteps** aims to achieve several key outcomes:
+
+- **Enhanced Understanding**: Gain insights into the variability of EEG results across different experimental setups, with a focus on mobile brain imaging and gait-related components.
+- **Standardized Protocols**: Develop and refine protocols for integrating EEG data from various sources, contributing to more consistent and reliable EEG research practices.
+- **Open-Access Database**: Create a large, open-access database of EEG data that will serve as a valuable resource for the neuroscience community, enabling further exploration and validation of findings.
+
+### Future Directions
+
+Moving forward, **EEGManySteps** aspires to:
+
+- **Expand Scope**: Include additional datasets and experimental paradigms to broaden the understanding of EEG variability in mobile applications.
+- **Develop Prediction Tools**: Consider implementing prediction markets or other forecasting tools to involve the EEG community in predicting the impact of different setups on research outcomes.
+- **Foster Collaboration**: Promote the formation of multi-laboratory collaborations to tackle new challenges in EEG research, enhancing the overall robustness of the field.
+
+Through these efforts, **EEGManySteps** aims to contribute significantly to the field of mobile brain imaging, driving advancements in research methodologies and fostering a culture of inclusive, high-powered collaborations.
+
+
+# Organisation
+
+The EEGManySteps project is lead by a steering commitee consisting of experienced researchers from the MoBI community.
+Additionally, there are 5 work packages (WPs) which take care of specific tasks.
+
+## Steering commitee members
+- [Bettina Wollesen](mailto:bettina.wollesen@uni-hamburg.de?subject=EEGManyLabs)
+- [Edmund Wascher](mailto:wascher@ifado.de?subject=EEGManyLabs)
+- [Fiorenzo Artoni](mailto:?subject=EEGManyLabs)
+- [Janna Protzak](mailto:?subject=EEGManyLabs)
+- [John Iversen](mailto:?subject=EEGManyLabs)
+- [Klaus Gramann](mailto:klaus.gramann@tu-berlin.de?subject=EEGManyLabs)
+- [Mathias Vukelic](mailto:mathias.vukelic@iao.fraunhofer.de?subject=EEGManyLabs)
+- [Stefan Debener](mailto:stefan.debener@uol.de?subject=EEGManyLabs)
+
+
+## Workpackages
+1. Experiment protocols and data collection
+2. Data curation
+3. Preprocessing
+4. Analysis
+5. Future recommendations
+
+```{mermaid}
+graph TD
+    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
+    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+
+    A[Steering Committee]
+    B1[Experiment Protocols<br>and Data Collection]
+    B2[Data Curation]
+    B3[Preprocessing]
+    B4[Analysis]
+    B5[Future Recommendations]
+
+    A --> B1
+    A --> B2
+    A --> B3
+    A --> B4
+    A --> B5
+
+```
+

@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EEGManySteps",
+    "section": "",
+    "text": "The use of multimodal data sets is a common practice in the field of mobile neuroimaging. The field however suffers from a lack of a unified system for curation of data. Despite the high cost of creating these valuable scientific materials, discontinued projects and academic positions often leave the data sets or software packages unmaintained, making them difficult to use or scrutinise. The issues stem from more fundamental structural problems in academia, including the lack of occupational stability of researchers themselves or funding for hiring professional developers. The effect is amplified by the lack of hands-on training opportunities and the insufficient incentives for maintaining open-source software tools, despite the science community’s high reliance on them. The psychological dynamics surrounding these issues are equally important, as they influence how researchers perceive and engage with OS practices. While the actionable solutions to the structural problems are elusive from the perspective of an early career researcher, we are committed to being vocal about the issues and fostering an environment where OS is the norm, in addition to making tangible contributions to the extent possible."
+  },
+  {
+    "objectID": "index.html#steering-commitee-members",
+    "href": "index.html#steering-commitee-members",
+    "title": "EEGManySteps",
+    "section": "Steering commitee members",
+    "text": "Steering commitee members\n\nBettina Wollesen\nEdmund Wascher\nFiorenzo Artoni\nJanna Protzak\nJohn Iversen\nKlaus Gramann\nMathias Vukelic\nStefan Debener"
+  },
+  {
+    "objectID": "index.html#workpackages",
+    "href": "index.html#workpackages",
+    "title": "EEGManySteps",
+    "section": "Workpackages",
+    "text": "Workpackages\n\nExperiment protocols and data collection\nData curation\nPreprocessing\nAnalysis\nFuture recommendations\n\n\n\n\n\n\ngraph TD\n    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px\n    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n\n    A[Steering Committee]\n    B1[Experiment Protocols&lt;br&gt;and Data Collection]\n    B2[Data Curation]\n    B3[Preprocessing]\n    B4[Analysis]\n    B5[Future Recommendations]\n\n    A --&gt; B1\n    A --&gt; B2\n    A --&gt; B3\n    A --&gt; B4\n    A --&gt; B5"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "Contributing Labs",
+    "section": "",
+    "text": "Data\n\nBenedikt Ehinger\nHelen Huang\nDan Ferris\nPierfilippo De Sanctis\nPedro Antonio Valdés-Sosa\n\n\n\nSoftware\n\n\nOrganisation"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "EEGManySteps",
+    "section": "Background",
+    "text": "Background\nIn the evolving field of mobile brain imaging using electroencephalography (EEG), understanding how different experimental setups influence results is crucial. EEGManySteps is an international collaborative effort aimed at collecting and analyzing EEG data across multiple laboratories to investigate these influences, with a specific focus on gait-related independent components.\nEEGManySteps differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results.\nTo achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.\n\nMethodology\n\nData Sources: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.\nStandardization: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the Brain Imaging Data Structure (BIDS) format.\nData Format: All data will be converted to the BIDS format and made available on OpenNeuro, an open-access database that supports the sharing and re-use of neuroimaging data. This will enhance the accessibility and utility of the data for future research.\nCommunity Engagement: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different EEG setups impact findings.\n\n\n\nExpected Outcomes and Future Directions\nEEGManySteps aims to achieve several key outcomes:\n\nEnhanced Understanding: Gain insights into the variability of EEG results across different experimental setups, with a focus on mobile brain imaging and gait-related components.\nStandardized Protocols: Develop and refine protocols for integrating EEG data from various sources, contributing to more consistent and reliable EEG research practices.\nOpen-Access Database: Create a large, open-access database of EEG data that will serve as a valuable resource for the neuroscience community, enabling further exploration and validation of findings.\n\n\n\nFuture Directions\nMoving forward, EEGManySteps aspires to:\n\nExpand Scope: Include additional datasets and experimental paradigms to broaden the understanding of EEG variability in mobile applications.\nDevelop Prediction Tools: Consider implementing prediction markets or other forecasting tools to involve the EEG community in predicting the impact of different setups on research outcomes.\nFoster Collaboration: Promote the formation of multi-laboratory collaborations to tackle new challenges in EEG research, enhancing the overall robustness of the field.\n\nThrough these efforts, EEGManySteps aims to contribute significantly to the field of mobile brain imaging, driving advancements in research methodologies and fostering a culture of inclusive, high-powered collaborations."
+  }
+]

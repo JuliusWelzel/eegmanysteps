@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "EEGManySteps"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: labs.qmd
+        text: Contributiong Labs
+        
+
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+
+
+

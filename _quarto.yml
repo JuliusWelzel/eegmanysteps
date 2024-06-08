@@ -8,7 +8,7 @@ website:
       - href: index.qmd
         text: Overview
       - href: labs.qmd
-        text: Contributiong Labs
+        text: Contributing Labs
         
 
 format:

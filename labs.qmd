@@ -2,6 +2,9 @@
 title: "Contributing Labs"
 ---
 
+This page serves an an overview of Labs/ Inidivduals which have agreed to contribute to the **EEGManySteps** project either with data, software or organisational support.
+As these types of contributions are often overlooked, we want to highlight them and give credit where credit is due.
+
 # Data
 - Benedikt Ehinger
 - Helen Huang
@@ -10,5 +13,9 @@ title: "Contributing Labs"
 - Pedro Antonio Valdés-Sosa
 
 # Software
+- Klaus Gramann
+- Walter Maetzler
 
 # Organisation
+- Stefan Debener
+- Edmund Wascher

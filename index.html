@@ -122,12 +122,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#motivation-statement" id="toc-motivation-statement" class="nav-link active" data-scroll-target="#motivation-statement">Motivation statement</a></li>
   <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a>
   <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a>
-  <ul class="collapse">
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
   <li><a href="#expected-outcomes-and-future-directions" id="toc-expected-outcomes-and-future-directions" class="nav-link" data-scroll-target="#expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</a></li>
   <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
-  </ul></li>
   </ul></li>
   <li><a href="#organisation" id="toc-organisation" class="nav-link" data-scroll-target="#organisation">Organisation</a>
   <ul class="collapse">
@@ -173,8 +171,9 @@ ul.task-list li input[type="checkbox"] {
 <p>In the evolving field of mobile brain imaging using electroencephalography (EEG), understanding how different experimental setups influence results is crucial. <strong>EEGManySteps</strong> is an international collaborative effort aimed at collecting and analyzing EEG data across multiple laboratories to investigate these influences, with a specific focus on gait-related independent components.</p>
 <p><strong>EEGManySteps</strong> differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results.</p>
 <p>To achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.</p>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
 <ol type="1">
 <li><p><strong>Data Sources</strong>: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.</p></li>
 <li><p><strong>Standardization</strong>: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the Brain Imaging Data Structure (BIDS) format.</p></li>
@@ -182,8 +181,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Community Engagement</strong>: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different EEG setups impact findings.</p></li>
 </ol>
 </section>
-<section id="expected-outcomes-and-future-directions" class="level3">
-<h3 class="anchored" data-anchor-id="expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</h3>
+<section id="expected-outcomes-and-future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</h2>
 <p><strong>EEGManySteps</strong> aims to achieve several key outcomes:</p>
 <ul>
 <li><strong>Enhanced Understanding</strong>: Gain insights into the variability of EEG results across different experimental setups, with a focus on mobile brain imaging and gait-related components.</li>
@@ -191,15 +190,14 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Open-Access Database</strong>: Create a large, open-access database of EEG data that will serve as a valuable resource for the neuroscience community, enabling further exploration and validation of findings.</li>
 </ul>
 </section>
-<section id="future-directions" class="level3">
-<h3 class="anchored" data-anchor-id="future-directions">Future Directions</h3>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
 <p>Moving forward, <strong>EEGManySteps</strong> aspires to:</p>
 <ul>
 <li><strong>Expand Scope</strong>: Include additional datasets and experimental paradigms to broaden the understanding of EEG variability in mobile applications.</li>
 <li><strong>Foster Collaboration</strong>: Promote the formation of multi-laboratory collaborations to tackle new challenges in EEG research, enhancing the overall robustness of the field.</li>
 </ul>
 <p>Through these efforts, <strong>EEGManySteps</strong> aims to contribute significantly to the field of mobile brain imaging, driving advancements in research methodologies and fostering a culture of inclusive, high-powered collaborations.</p>
-</section>
 </section>
 </section>
 <section id="organisation" class="level1">
@@ -253,6 +251,11 @@ ul.task-list li input[type="checkbox"] {
     A --&gt; B3
     A --&gt; B4
     A --&gt; B5
+    B1 --&gt; B2
+    B2 --&gt; B3
+    B3 --&gt; B4
+    B4 --&gt; B5
+    
 
 </pre>
 </div>

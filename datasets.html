@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EEGManySteps</title>
+<title>EEGManySteps - Avaliable MoBI datasets</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,9 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -92,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
@@ -100,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contributing Labs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./datasets.html"> 
+    <a class="nav-link active" href="./datasets.html" aria-current="page"> 
 <span class="menu-text">Datasets</span></a>
   </li>  
 </ul>
@@ -115,36 +112,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#motivation-statement" id="toc-motivation-statement" class="nav-link active" data-scroll-target="#motivation-statement">Motivation statement</a></li>
-  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a>
-  <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a>
-  <ul class="collapse">
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
-  <li><a href="#expected-outcomes-and-future-directions" id="toc-expected-outcomes-and-future-directions" class="nav-link" data-scroll-target="#expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</a></li>
-  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#organisation" id="toc-organisation" class="nav-link" data-scroll-target="#organisation">Organisation</a>
-  <ul class="collapse">
-  <li><a href="#steering-commitee-members" id="toc-steering-commitee-members" class="nav-link" data-scroll-target="#steering-commitee-members">Steering commitee members</a></li>
-  <li><a href="#workpackages" id="toc-workpackages" class="nav-link" data-scroll-target="#workpackages">Workpackages</a></li>
-  </ul></li>
-  <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related Projects</a></li>
-  <li><a href="#recommended-reading" id="toc-recommended-reading" class="nav-link" data-scroll-target="#recommended-reading">Recommended Reading</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EEGManySteps</h1>
+<h1 class="title">Avaliable MoBI datasets</h1>
 </div>
 
 
@@ -161,126 +136,215 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="motivation-statement" class="level1">
-<h1>Motivation statement</h1>
-<p>The use of multimodal data sets is a common practice in the field of mobile neuroimaging. The field however suffers from a lack of a unified system for curation of data. Despite the high cost of creating these valuable scientific materials, discontinued projects and academic positions often leave the data sets or software packages unmaintained, making them difficult to use or scrutinise. This issue critically infludences the quality and reproducibility of findings using mobile neuroimaging. We are committed to fostering an environment where Open Science is the norm, in addition to making tangible contributions to the extent possible.</p>
-</section>
-<section id="project" class="level1">
-<h1>Project</h1>
-<p>EEGManySteps is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. We strive to implement good scientific practices, by informing peers of the concept, pointing them to tools, and implementing guidelines within the group.</p>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>In the evolving field of mobile brain imaging using electroencephalography (EEG), understanding how different experimental setups influence results is crucial. <strong>EEGManySteps</strong> is an international collaborative effort aimed at collecting and analyzing EEG data across multiple laboratories to investigate these influences, with a specific focus on gait-related independent components.</p>
-<p><strong>EEGManySteps</strong> differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results.</p>
-<p>To achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.</p>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
-<ol type="1">
-<li><p><strong>Data Sources</strong>: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.</p></li>
-<li><p><strong>Standardization</strong>: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the Brain Imaging Data Structure (BIDS) format.</p></li>
-<li><p><strong>Data Format</strong>: All data will be converted to the BIDS format and made available on OpenNeuro, an open-access database that supports the sharing and re-use of neuroimaging data. This will enhance the accessibility and utility of the data for future research.</p></li>
-<li><p><strong>Community Engagement</strong>: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different EEG setups impact findings.</p></li>
-</ol>
-</section>
-<section id="expected-outcomes-and-future-directions" class="level3">
-<h3 class="anchored" data-anchor-id="expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</h3>
-<p><strong>EEGManySteps</strong> aims to achieve several key outcomes:</p>
-<ul>
-<li><strong>Enhanced Understanding</strong>: Gain insights into the variability of EEG results across different experimental setups, with a focus on mobile brain imaging and gait-related components.</li>
-<li><strong>Standardized Protocols</strong>: Develop and refine protocols for integrating EEG data from various sources, contributing to more consistent and reliable EEG research practices.</li>
-<li><strong>Open-Access Database</strong>: Create a large, open-access database of EEG data that will serve as a valuable resource for the neuroscience community, enabling further exploration and validation of findings.</li>
-</ul>
-</section>
-<section id="future-directions" class="level3">
-<h3 class="anchored" data-anchor-id="future-directions">Future Directions</h3>
-<p>Moving forward, <strong>EEGManySteps</strong> aspires to:</p>
-<ul>
-<li><strong>Expand Scope</strong>: Include additional datasets and experimental paradigms to broaden the understanding of EEG variability in mobile applications.</li>
-<li><strong>Foster Collaboration</strong>: Promote the formation of multi-laboratory collaborations to tackle new challenges in EEG research, enhancing the overall robustness of the field.</li>
-</ul>
-<p>Through these efforts, <strong>EEGManySteps</strong> aims to contribute significantly to the field of mobile brain imaging, driving advancements in research methodologies and fostering a culture of inclusive, high-powered collaborations.</p>
-</section>
-</section>
-</section>
-<section id="organisation" class="level1">
-<h1>Organisation</h1>
-<p>The EEGManySteps project is lead by a steering commitee consisting of experienced researchers from the MoBI community. Additionally, there are 5 work packages (WPs) which take care of specific tasks.</p>
-<section id="steering-commitee-members" class="level2">
-<h2 class="anchored" data-anchor-id="steering-commitee-members">Steering commitee members</h2>
-<ul>
-<li><a href="mailto:bettina.wollesen@uni-hamburg.de?subject=EEGManyLabs">Bettina Wollesen</a></li>
-<li><a href="mailto:wascher@ifado.de?subject=EEGManyLabs">Edmund Wascher</a></li>
-<li><a href="mailto:?subject=EEGManyLabs">Fiorenzo Artoni</a></li>
-<li><a href="mailto:?subject=EEGManyLabs">Janna Protzak</a></li>
-<li><a href="mailto:?subject=EEGManyLabs">John Iversen</a></li>
-<li><a href="mailto:klaus.gramann@tu-berlin.de?subject=EEGManyLabs">Klaus Gramann</a></li>
-<li><a href="mailto:mathias.vukelic@iao.fraunhofer.de?subject=EEGManyLabs">Mathias Vukelic</a></li>
-<li><a href="mailto:pierfilippo.Desanctis@einstein.yu.edu">Pierfilippo De Sanctis</a></li>
-<li><a href="mailto:stefan.debener@uol.de?subject=EEGManyLabs">Stefan Debener</a></li>
-</ul>
-</section>
-<section id="workpackages" class="level2">
-<h2 class="anchored" data-anchor-id="workpackages">Workpackages</h2>
-<ol type="1">
-<li>Experiment protocols and data collection</li>
-<li>Data curation</li>
-<li>Preprocessing</li>
-<li>Analysis</li>
-<li>Future recommendations</li>
-</ol>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph TD
-    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
-    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+<p>This is a table of avaliable EEG datasets on <a href="https://openneuro.org/search/modality/eeg?query=%7B%22modality_selected%22%3A%22EEG%22%7D">OpenNeuro</a> for the keywords specified in the table. If you find datasets missing, plesae feel free to add them here.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>OpenNeuro Accession Number</th>
+<th>Dataset DOI</th>
+<th>Study</th>
+<th>Tasks</th>
+<th>Authors</th>
+<th>Keywords</th>
+<th>Mobility Tasks</th>
+<th>Sampling Frequency</th>
+<th>Participants</th>
+<th>EEG Channels</th>
+<th>EMG Channels</th>
+<th>IMU Tracked Points</th>
+<th>IMU Sensor Placement</th>
+<th>MoCap Channels</th>
+<th>MoCap Sensor Placement</th>
+<th>Misc Channel Count</th>
+<th>Gait Events Shared</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ds004475</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds004475.v1.0.3">doi:10.18112/openneuro.ds004475.v1.0.3</a></td>
+<td>Split-Belt Treadmill Walking</td>
+<td>Treadmill Walking</td>
+<td>Noelle A. Jacobsen, Daniel P. Ferris</td>
+<td>gait</td>
+<td>Yes</td>
+<td>512</td>
+<td>30</td>
+<td>127</td>
+<td>8</td>
+<td></td>
+<td></td>
+<td>127</td>
+<td></td>
+<td>1</td>
+<td>Yes</td>
+<td>Force plates under treadmill recorded gait parameters, Dual-layer EEG setup</td>
+</tr>
+<tr class="even">
+<td>ds001971</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds001971.v1.1.1">doi:10.18112/openneuro.ds001971.v1.1.1</a></td>
+<td>Audio Cue Walking Study</td>
+<td>Treadmill Walking</td>
+<td>Johanna Wagner, Ramon Martinez-Cancino, Scott Makeig, Arnaud Delorme, Christa Neuper, Teodoro Solis-Escalante, Gernot Mueller-Putz</td>
+<td>gait</td>
+<td>Yes</td>
+<td>512</td>
+<td>20</td>
+<td>108</td>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ds004505</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds004505.v1.0.4">doi:10.18112/openneuro.ds004505.v1.0.4</a></td>
+<td>Table Tennis</td>
+<td>Table Tennis</td>
+<td>Amanda Studnicki, Daniel P. Ferris</td>
+<td>gait</td>
+<td>Yes</td>
+<td>250</td>
+<td>25</td>
+<td>120</td>
+<td>8</td>
+<td>20</td>
+<td>Backpack, forehead, lower back</td>
+<td>171</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ds004033</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds004033.v1.0.0">doi:10.18112/openneuro.ds004033.v1.0.0</a></td>
+<td>Electrode Walking Study</td>
+<td>Outdoor Walking, Oddball Task, Walking Synchronization Task</td>
+<td>Joanna Scanlon, Nadine Jacobsen, Marike Maack, Stefan Debener</td>
+<td>gait</td>
+<td>Yes</td>
+<td>500</td>
+<td>18</td>
+<td>64</td>
+<td>0</td>
+<td>3</td>
+<td>Right foot</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ds004460</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds004460.v1.1.0">doi:10.18112/openneuro.ds004460.v1.1.0</a></td>
+<td>EEG + Motion Capture Data Set for a Full-body/Joystick Rotation Task</td>
+<td>Rotation</td>
+<td>Gramann, K., Hohlefeld, F.U., Gehrke, L., Klug, M</td>
+<td>gait</td>
+<td>Yes (Rotation)</td>
+<td>1000</td>
+<td>20</td>
+<td>160</td>
+<td>0</td>
+<td></td>
+<td>Both feet, hips, shoulders</td>
+<td>19</td>
+<td></td>
+<td></td>
+<td>Unclear</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ds003039</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds003039.v1.0.2">doi:10.18112/openneuro.ds003039.v1.0.2</a></td>
+<td>Free Walking Study</td>
+<td>Outdoor Walking</td>
+<td>Nadine Jacobsen, Sarah Blum, Karsten Witt, Stefan Debener, Joanna Scanlon</td>
+<td>walking</td>
+<td>Yes</td>
+<td>500</td>
+<td>19</td>
+<td>64</td>
+<td>0</td>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ds003739</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds003739.v1.0.3">doi:10.18112/openneuro.ds003739.v1.0.3</a></td>
+<td>Perturbed Beam-Walking Task</td>
+<td>Treadmill Walking</td>
+<td>Steven Peterson, Daniel Ferris</td>
+<td>walking</td>
+<td>Yes</td>
+<td>256</td>
+<td>30</td>
+<td>128</td>
+<td>10</td>
+<td>6</td>
+<td>Head, Sacrum</td>
+<td>8</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ds004625</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds004625.v1.0.2">doi:10.18112/openneuro.ds004625.v1.0.2</a></td>
+<td>Mind in Motion: Young Adults Walking Over Uneven Terrain</td>
+<td>Walking</td>
+<td>Chang Liu, Ryan J. Downey, Jacob S. Salminen, Sofia Arvelo Rojas, Erika M. Pliner, Natalie Richer, Jungyun Hwang, Yenisel Cruz-Almeida, Todd M. Manini, Chris J. Hass, Rachael D. Seidler, David J. Clark, Daniel P. Ferris</td>
+<td>walking</td>
+<td>Yes</td>
+<td>500</td>
+<td>32</td>
+<td>120</td>
+<td>8</td>
+<td>13</td>
+<td>Lower Back</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ds003801</td>
+<td><a href="https://doi.org/10.18112/openneuro.ds003801.v1.0.0">doi:10.18112/openneuro.ds003801.v1.0.0</a></td>
+<td>Neural Tracking To Go</td>
+<td>Neural Tracking To Go</td>
+<td>Lisa Straetmans, Bjoern Holtze, Stefan Debener, Manuela Jaeger, Bojana Mirkovic</td>
+<td>balance</td>
+<td>Yes</td>
+<td>250</td>
+<td>20</td>
+<td>24</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-    A[Steering Committee]
-    B1[Experiment Protocols&lt;br&gt;and Data Collection]
-    B2[Data Curation]
-    B3[Preprocessing]
-    B4[Analysis]
-    B5[Future Recommendations]
 
-    A --&gt; B1
-    A --&gt; B2
-    A --&gt; B3
-    A --&gt; B4
-    A --&gt; B5
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="related-projects" class="level1">
-<h1>Related Projects</h1>
-<p><a href="https://www.icmobi.org/">ICMoBI</a> : This is a collaborative project dedicated to identifying Independent Components of Mobile Brain Imaging.<br>
-<a href="https://osf.io/yb3pq/">EEGManyLabs</a> : Investigating the replicability of influential EEG experiments.<br>
-<a href="https://eegmanypipelines.github.io/">EEGManyPipelines</a> : A large-scale, grassroots multi-analyst study of electroencephalography analysis practices in the wild.<br>
-<a href="https://www.incf.org/sig/incf-working-group-artemis">ARTEM-IS</a> : Design guidelines for evidence-based EEG methodology reporting tools.</p>
-</section>
-<section id="recommended-reading" class="level1">
-<h1>Recommended Reading</h1>
-<p>Grasso-Cladera, A., Bremer, M., Ladouce, S., &amp; Parada, F. (2024). A systematic review of mobile brain/body imaging studies using the P300 event-related potentials to investigate cognition beyond the laboratory. Cognitive, Affective, &amp; Behavioral Neuroscience, 1-29.</p>
-<p>Richer, N., Bradford, J. C., &amp; Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience &amp; Biobehavioral Reviews, 105718.</p>
-<p>Niso, G., Romero, E., Moreau, J. T., Araujo, A., &amp; Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.</p>
-<p>Niso, G., Krol, L. R., Combrisson, E., Dubarry, A. S., Elliott, M. A., François, C., … &amp; Chaumon, M. (2022). Good scientific practice in EEG and MEG research: Progress and perspectives. NeuroImage, 257, 119056.</p>
-<p>Jacobsen, N. S. J., Blum, S., Witt, K., &amp; Debener, S. (2021). A walk in the park? Characterizing gait‐related artifacts in mobile EEG recordings. European Journal of Neuroscience, 54(12), 8421-8440.</p>
-<p>Styles, S. J., Ković, V., Ke, H., &amp; Šoškić, A. (2021). Towards ARTEM-IS: Design guidelines for evidence-based EEG methodology reporting tools. NeuroImage, 245, 118721.</p>
-<p>Keil, A., Debener, S., Gratton, G., Junghöfer, M., Kappenman, E. S., Luck, S. J., … &amp; Yee, C. M. (2014). Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography. Psychophysiology, 51(1), 1-21.</p>
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

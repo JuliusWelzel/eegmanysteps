@@ -23,7 +23,7 @@ In the evolving field of mobile brain imaging using electroencephalography (EEG)
 To achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.
 
 
-### Methodology
+## Methodology
 
 1. **Data Sources**: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.
 
@@ -33,7 +33,7 @@ To achieve this, we will standardize data acquisition and analysis protocols, al
 
 4. **Community Engagement**: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different EEG setups impact findings.
 
-### Expected Outcomes and Future Directions
+## Expected Outcomes and Future Directions
 
 **EEGManySteps** aims to achieve several key outcomes:
 
@@ -41,7 +41,7 @@ To achieve this, we will standardize data acquisition and analysis protocols, al
 - **Standardized Protocols**: Develop and refine protocols for integrating EEG data from various sources, contributing to more consistent and reliable EEG research practices.
 - **Open-Access Database**: Create a large, open-access database of EEG data that will serve as a valuable resource for the neuroscience community, enabling further exploration and validation of findings.
 
-### Future Directions
+## Future Directions
 
 Moving forward, **EEGManySteps** aspires to:
 
@@ -96,6 +96,11 @@ graph TD
     A --> B3
     A --> B4
     A --> B5
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+    B4 --> B5
+    
 
 ```
 

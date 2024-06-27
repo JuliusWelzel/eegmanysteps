@@ -9,6 +9,8 @@ website:
         text: Overview
       - href: labs.qmd
         text: Contributing Labs
+      - href: datasets.qmd
+        text: Datasets
         
 
 format:

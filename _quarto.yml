@@ -18,6 +18,8 @@ format:
     theme: journal
     css: styles.css
     toc: true
+    grid:
+      margin-width: 150px
 
 
 

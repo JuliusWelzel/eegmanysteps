@@ -6,16 +6,15 @@ This page serves an an overview of Labs/ Inidivduals which have agreed to contri
 As these types of contributions are often overlooked, we want to highlight them and give credit where credit is due.
 
 # Data
-- Benedikt Ehinger
-- Helen Huang
-- Dan Ferris
-- Pierfilippo De Sanctis
-- Pedro Antonio Valdés-Sosa
+- [Benedikt Ehinger](https://benediktehinger.de/blog/science/)
+- [Helen Huang](https://www.cecs.ucf.edu/faculty/helen-huang/)
+- [Dan Ferris](https://bme.ufl.edu/dept-member/ferris_daniel/)
+- [Pierfilippo De Sanctis](https://www.cognitiveneurolab.com/dr-pierfilippo-de-sanctis)
 
 # Software
-- Klaus Gramann
-- Walter Maetzler
+- [Klaus Gramann](https://www.tu.berlin/bpn)
+- [Walter Maetzler](https://neurogeriatrics-kiel.com/de/)
 
 # Organisation
-- Stefan Debener
-- Edmund Wascher
+- [Stefan Debener](https://uol.de/neuropsychologie/team/prof-dr-stefan-debener)
+- [Edmund Wascher](https://www.ifado.de/de/forschung/ergonomie/team/edmund-wascher)

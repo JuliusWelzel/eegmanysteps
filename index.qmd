@@ -56,18 +56,18 @@ The EEGManySteps project is lead by a steering commitee consisting of experience
 Additionally, there are 5 work packages (WPs) which take care of specific tasks.
 
 ## Steering commitee members
-- [Bettina Wollesen](mailto:bettina.wollesen@uni-hamburg.de?subject=EEGManyLabs)
-- [Edmund Wascher](mailto:wascher@ifado.de?subject=EEGManyLabs)
-- [Fiorenzo Artoni](mailto:?subject=EEGManyLabs)
-- [Janna Protzak](mailto:?subject=EEGManyLabs)
-- [John Iversen](mailto:?subject=EEGManyLabs)
-- [Klaus Gramann](mailto:klaus.gramann@tu-berlin.de?subject=EEGManyLabs)
-- [Mathias Vukelic](mailto:mathias.vukelic@iao.fraunhofer.de?subject=EEGManyLabs)
-- [Pierfilippo De Sanctis](mailto:pierfilippo.Desanctis@einstein.yu.edu)
-- [Stefan Debener](mailto:stefan.debener@uol.de?subject=EEGManyLabs)
+- [Bettina Wollesen](mailto:bettina.wollesen@uni-hamburg.de?subject=EEGManySteps)
+- [Edmund Wascher](mailto:wascher@ifado.de?subject=EEGManySteps)
+- [Fiorenzo Artoni](mailto:?subject=EEGManySteps)
+- [Janna Protzak](mailto:?subject=EEGManySteps)
+- [John Iversen](mailto:?subject=EEGManySteps)
+- [Klaus Gramann](mailto:klaus.gramann@tu-berlin.de?subject=EEGManySteps)
+- [Mathias Vukelic](mailto:mathias.vukelic@iao.fraunhofer.de?subject=EEGManySteps)
+- [Pierfilippo De Sanctis](mailto:pierfilippo.Desanctis@einstein.yu.edu?subject=EEGManySteps)
+- [Stefan Debener](mailto:stefan.debener@uol.de?subject=EEGManySteps)
 
 
-## Workpackages
+## Workpackages (WPs)
 1. Experiment protocols and data collection
 2. Data curation
 3. Preprocessing
@@ -85,11 +85,11 @@ graph TD
     style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
 
     A[Steering Committee]
-    B1[Experiment Protocols<br>and Data Collection]
-    B2[Data Curation]
-    B3[Preprocessing]
-    B4[Analysis]
-    B5[Future Recommendations]
+    B1[WP1: Experiment Protocols<br>and Data Collection]
+    B2[WP2: Data Curation]
+    B3[WP3: Preprocessing]
+    B4[WP4: Analysis]
+    B5[WP5: Future Recommendations]
 
     A --> B1
     A --> B2
@@ -105,10 +105,10 @@ graph TD
 ```
 
 # Related Projects 
-[ICMoBI](https://www.icmobi.org/)         : This is a collaborative project dedicated to identifying Independent Components of Mobile Brain Imaging.      
+[ARTEM-IS](https://www.incf.org/sig/incf-working-group-artemis) : Design guidelines for evidence-based EEG methodology reporting tools.     
 [EEGManyLabs](https://osf.io/yb3pq/)      : Investigating the replicability of influential EEG experiments.     
 [EEGManyPipelines](https://eegmanypipelines.github.io/) : A large-scale, grassroots multi-analyst study of electroencephalography analysis practices in the wild.     
-[ARTEM-IS](https://www.incf.org/sig/incf-working-group-artemis) : Design guidelines for evidence-based EEG methodology reporting tools.     
+[ICMoBI](https://www.icmobi.org/)         : This is a collaborative project dedicated to identifying Independent Components of Mobile Brain Imaging.      
 
 # Recommended Reading 
 Grasso-Cladera, A., Bremer, M., Ladouce, S., & Parada, F. (2024). A systematic review of mobile brain/body imaging studies using the P300 event-related potentials to investigate cognition beyond the laboratory. Cognitive, Affective, & Behavioral Neuroscience, 1-29.

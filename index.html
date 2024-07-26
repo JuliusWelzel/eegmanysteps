@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#organisation" id="toc-organisation" class="nav-link" data-scroll-target="#organisation">Organisation</a>
   <ul class="collapse">
-  <li><a href="#steering-commitee-members" id="toc-steering-commitee-members" class="nav-link" data-scroll-target="#steering-commitee-members">Steering commitee members</a></li>
+  <li><a href="#potential-advisory-board" id="toc-potential-advisory-board" class="nav-link" data-scroll-target="#potential-advisory-board">Potential Advisory Board</a></li>
   <li><a href="#workpackages-wps" id="toc-workpackages-wps" class="nav-link" data-scroll-target="#workpackages-wps">Workpackages (WPs)</a></li>
   </ul></li>
   <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related Projects</a></li>
@@ -203,8 +203,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="organisation" class="level1">
 <h1>Organisation</h1>
 <p>The EEGManySteps project is lead by a steering commitee consisting of experienced researchers from the MoBI community. Additionally, there are 5 work packages (WPs) which take care of specific tasks.</p>
-<section id="steering-commitee-members" class="level2">
-<h2 class="anchored" data-anchor-id="steering-commitee-members">Steering commitee members</h2>
+<section id="potential-advisory-board" class="level2">
+<h2 class="anchored" data-anchor-id="potential-advisory-board">Potential Advisory Board</h2>
 <ul>
 <li><a href="mailto:bettina.wollesen@uni-hamburg.de?subject=EEGManySteps">Bettina Wollesen</a></li>
 <li><a href="mailto:wascher@ifado.de?subject=EEGManySteps">Edmund Wascher</a></li>
@@ -233,24 +233,27 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <pre class="mermaid mermaid-js">graph TD
     style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
+    style S fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
     style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
 
-    A[Steering Committee]
+    A[ Advisory Board]
+    S[Steering Committee]
     B1[WP1: Experiment Protocols&lt;br&gt;and Data Collection]
     B2[WP2: Data Curation]
     B3[WP3: Preprocessing]
     B4[WP4: Analysis]
     B5[WP5: Future Recommendations]
 
-    A --&gt; B1
-    A --&gt; B2
-    A --&gt; B3
-    A --&gt; B4
-    A --&gt; B5
+    A &lt;--&gt; S
+    S --&gt; B1
+    S --&gt; B2
+    S --&gt; B3
+    S --&gt; B4
+    S --&gt; B5
     B1 --&gt; B2
     B2 --&gt; B3
     B3 --&gt; B4

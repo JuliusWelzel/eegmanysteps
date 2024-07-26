@@ -35,18 +35,18 @@
     "text": "Future Directions\nMoving forward, EEGManySteps aspires to:\n\nExpand Scope: Include additional datasets and experimental paradigms to broaden the understanding of EEG variability in mobile applications.\nFoster Collaboration: Promote the formation of multi-laboratory collaborations to tackle new challenges in EEG research, enhancing the overall robustness of the field.\n\nThrough these efforts, EEGManySteps aims to contribute significantly to the field of mobile brain imaging, driving advancements in research methodologies and fostering a culture of inclusive, high-powered collaborations."
   },
   {
-    "objectID": "index.html#steering-commitee-members",
-    "href": "index.html#steering-commitee-members",
+    "objectID": "index.html#potential-advisory-board",
+    "href": "index.html#potential-advisory-board",
     "title": "EEGManySteps",
-    "section": "Steering commitee members",
-    "text": "Steering commitee members\n\nBettina Wollesen\nEdmund Wascher\nFiorenzo Artoni\nJanna Protzak\nJohn Iversen\nKlaus Gramann\nMathias Vukelic\nPierfilippo De Sanctis\nStefan Debener"
+    "section": "Potential Advisory Board",
+    "text": "Potential Advisory Board\n\nBettina Wollesen\nEdmund Wascher\nFiorenzo Artoni\nJanna Protzak\nJohn Iversen\nKlaus Gramann\nMathias Vukelic\nPierfilippo De Sanctis\nStefan Debener"
   },
   {
     "objectID": "index.html#workpackages-wps",
     "href": "index.html#workpackages-wps",
     "title": "EEGManySteps",
     "section": "Workpackages (WPs)",
-    "text": "Workpackages (WPs)\n\nExperiment protocols and data collection\nData curation\nPreprocessing\nAnalysis\nFuture recommendations\n\n\n\n\n\n\ngraph TD\n    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px\n    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n\n    A[Steering Committee]\n    B1[WP1: Experiment Protocols&lt;br&gt;and Data Collection]\n    B2[WP2: Data Curation]\n    B3[WP3: Preprocessing]\n    B4[WP4: Analysis]\n    B5[WP5: Future Recommendations]\n\n    A --&gt; B1\n    A --&gt; B2\n    A --&gt; B3\n    A --&gt; B4\n    A --&gt; B5\n    B1 --&gt; B2\n    B2 --&gt; B3\n    B3 --&gt; B4\n    B4 --&gt; B5"
+    "text": "Workpackages (WPs)\n\nExperiment protocols and data collection\nData curation\nPreprocessing\nAnalysis\nFuture recommendations\n\n\n\n\n\n\ngraph TD\n    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px\n    style S fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px\n    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n\n    A[ Advisory Board]\n    S[Steering Committee]\n    B1[WP1: Experiment Protocols&lt;br&gt;and Data Collection]\n    B2[WP2: Data Curation]\n    B3[WP3: Preprocessing]\n    B4[WP4: Analysis]\n    B5[WP5: Future Recommendations]\n\n    A &lt;--&gt; S\n    S --&gt; B1\n    S --&gt; B2\n    S --&gt; B3\n    S --&gt; B4\n    S --&gt; B5\n    B1 --&gt; B2\n    B2 --&gt; B3\n    B3 --&gt; B4\n    B4 --&gt; B5"
   },
   {
     "objectID": "datasets.html",
@@ -60,6 +60,6 @@
     "href": "labs.html",
     "title": "Contributing Labs",
     "section": "",
-    "text": "This page serves an an overview of Labs/ Inidivduals which have agreed to contribute to the EEGManySteps project either with data, software or organisational support. As these types of contributions are often overlooked, we want to highlight them and give credit where credit is due.\n\nData\n\nBenedikt Ehinger\nHelen Huang\nDan Ferris\nPierfilippo De Sanctis\n\n\n\nSoftware\n\nKlaus Gramann\nWalter Maetzler\n\n\n\nOrganisation\n\nStefan Debener\nEdmund Wascher"
+    "text": "This page serves an an overview of Labs/ Inidivduals which have agreed to contribute to the EEGManySteps project either with data, software or organisational support. As these types of contributions are often overlooked, we want to highlight them and give credit where credit is due.\n\nData\n\nBenedikt Ehinger\nHelen Huang\nPierfilippo De Sanctis\n\n\n\nSoftware\n\nKlaus Gramann\nWalter Maetzler"
   }
 ]

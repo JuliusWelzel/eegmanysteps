@@ -52,7 +52,7 @@ Through these efforts, **EEGManySteps** aims to contribute significantly to the 
 
 # Organisation
 
-The EEGManySteps project is lead by a steering commitee consisting of experienced researchers from the MoBI community.
+The EEGManySteps project is lead by a steering commitee consisting of experienced researchers from the MoBI community. The work of the steering commitee is supported by an advisory board of experts from the field.
 Additionally, there are 5 work packages (WPs) which take care of specific tasks.
 
 ## Potential Advisory Board

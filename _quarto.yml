@@ -11,7 +11,8 @@ website:
         text: Contributing Labs
       - href: datasets.qmd
         text: Datasets
-        
+      - href: news.qmd
+        text: News
 
 format:
   html:

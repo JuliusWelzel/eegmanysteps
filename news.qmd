@@ -1,6 +1,6 @@
 ---
 title: "EEGManySteps Initiative Collaboration Invitation"
-date: "12th August 2024"
+date: "August 12th, 2024"
 ---
 
 We invite you to collaborate on the **EEGManySteps** initiative, aimed at understanding how different setups in mobile electroencephalography (EEG) experiments influence the results. EEGManySteps is an international, inter-institute effort focused on collecting and analyzing EEG data across multiple laboratories to investigate these influences, starting with a specific focus on gait-related features. Further descriptions can be found on the website linked above. Specific aims are still to be discussed.

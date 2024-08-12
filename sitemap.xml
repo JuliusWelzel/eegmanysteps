@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://JuliusWelzel.github.io/eegmanysteps/index.html</loc>
-    <lastmod>2024-07-26T18:07:58.049Z</lastmod>
+    <loc>https://JuliusWelzel.github.io/eegmanysteps/labs.html</loc>
+    <lastmod>2024-08-12T13:47:59.812Z</lastmod>
   </url>
   <url>
     <loc>https://JuliusWelzel.github.io/eegmanysteps/datasets.html</loc>
-    <lastmod>2024-07-26T18:07:58.049Z</lastmod>
+    <lastmod>2024-08-12T13:47:59.812Z</lastmod>
   </url>
   <url>
-    <loc>https://JuliusWelzel.github.io/eegmanysteps/labs.html</loc>
-    <lastmod>2024-07-26T18:07:58.049Z</lastmod>
+    <loc>https://JuliusWelzel.github.io/eegmanysteps/news.html</loc>
+    <lastmod>2024-08-12T13:47:59.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://JuliusWelzel.github.io/eegmanysteps/index.html</loc>
+    <lastmod>2024-08-12T13:47:59.812Z</lastmod>
   </url>
 </urlset>

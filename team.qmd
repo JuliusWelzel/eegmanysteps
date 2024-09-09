@@ -6,31 +6,31 @@ This page serves an an overview of individuals who have agreed to support to the
 The definition of roles and responsibilities can be found at the bottom of this page.
 
 ## (current) Steering Committee Members
-- Aitana Grasso Cladera
-- Anna Wunderlich
-- Claudia Gianelli
 - Elena Cesnaite
-- Janna Protzak
-- Julius Welzel
+- Aitana Grasso Cladera
+- Claudia Gianelli
 - Nadine Jacobsen
 - Sein Jeung
+- Janna Protzak
 - Yahya Seyed Shirazi
 - Yu-Fang Yang
+- Julius Welzel
+- Anna Wunderlich
 
 ## (current) Advisory Board Members
+- Fiorenzo Artoni
+- Tjeerd Boonstra
+- Stefan Debener
 - Benedikt Ehinger
 - Dan Ferris
-- Edmund Wascher
-- Fiorenzo Artoni
-- John Iversen
 - Klaus Gramann
-- Mathias Vukelic
-- Pierfilippo De Sanctis
+- John Iversen
 - Scott Makeig
-- Stefan Debener
-- Tjeerd Boonstra
-- Tomer Yona
+- Pierfilippo De Sanctis
+- Mathias Vukelic
+- Edmund Wascher
 - Bettina Wollesen
+- Tomer Yona
 
 
 ## Role Definitions

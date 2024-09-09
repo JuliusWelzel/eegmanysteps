@@ -35,13 +35,6 @@
     "text": "Mobile Brain Imaging (MoBI) is a burgeoning field enabling researchers to study brain activity in naturalistic settings. Electroencephalography (EEG), a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings. The EEGManySteps initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments. We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging."
   },
   {
-    "objectID": "index.html#methodology",
-    "href": "index.html#methodology",
-    "title": "EEGManySteps",
-    "section": "Methodology",
-    "text": "Methodology\n\nData Sources: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories.\nStandardization: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the Brain Imaging Data Structure (BIDS) format for EEG, Motion and potentially EMG data.\nAnalysis: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different setups and pipelines impact research findings."
-  },
-  {
     "objectID": "index.html#workpackages-wps",
     "href": "index.html#workpackages-wps",
     "title": "EEGManySteps",

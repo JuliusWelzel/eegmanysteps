@@ -96,16 +96,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./labs.html"> 
-<span class="menu-text">Contributing Labs</span></a>
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./team.html"> 
+<span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./datasets.html"> 
 <span class="menu-text">Datasets</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -126,15 +126,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#motivation-statement" id="toc-motivation-statement" class="nav-link active" data-scroll-target="#motivation-statement">Motivation statement</a></li>
   <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a>
   <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
-  <li><a href="#expected-outcomes-and-future-directions" id="toc-expected-outcomes-and-future-directions" class="nav-link" data-scroll-target="#expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</a></li>
-  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
   </ul></li>
   <li><a href="#organisation" id="toc-organisation" class="nav-link" data-scroll-target="#organisation">Organisation</a>
   <ul class="collapse">
-  <li><a href="#potential-advisory-board" id="toc-potential-advisory-board" class="nav-link" data-scroll-target="#potential-advisory-board">Potential Advisory Board</a></li>
   <li><a href="#workpackages-wps" id="toc-workpackages-wps" class="nav-link" data-scroll-target="#workpackages-wps">Workpackages (WPs)</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
   </ul></li>
   <li><a href="#related-projects" id="toc-related-projects" class="nav-link" data-scroll-target="#related-projects">Related Projects</a></li>
   <li><a href="#recommended-reading" id="toc-recommended-reading" class="nav-link" data-scroll-target="#recommended-reading">Recommended Reading</a></li>
@@ -165,70 +162,33 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="motivation-statement" class="level1">
 <h1>Motivation statement</h1>
-<p>The use of multimodal data sets is a common practice in the field of mobile neuroimaging. The field however suffers from a lack of a unified system for curation of data. Despite the high cost of creating these valuable scientific materials, discontinued projects and academic positions often leave the data sets or software packages unmaintained, making them difficult to use or scrutinise. This issue critically infludences the quality and reproducibility of findings using mobile neuroimaging. We are committed to fostering an environment where Open Science is the norm, in addition to making tangible contributions to the extent possible.</p>
+<p><strong>Mobile Brain Imaging (MoBI)</strong> is a burgeoning field enabling researchers to study brain activity in naturalistic settings. <strong>Electroencephalography (EEG)</strong>, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings. The <strong>EEGManySteps</strong> initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments. We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging.</p>
 </section>
 <section id="project" class="level1">
 <h1>Project</h1>
-<p>EEGManySteps is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. We strive to implement good scientific practices, by informing peers of the concept, pointing them to tools, and implementing guidelines within the group.</p>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>In the evolving field of mobile brain imaging using electroencephalography (EEG), understanding how different experimental setups influence results is crucial. <strong>EEGManySteps</strong> is an international collaborative effort aimed at collecting and analyzing EEG data across multiple laboratories to investigate these influences, with a specific focus on gait-related independent components.</p>
+<p>EEGManySteps is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. The project is in its early stages and is currently being shaped by the community. The initiative is open to all researchers who are interested in contributing to the project. We are currently forming the decision-making structure of the initiative, which may change through further open discussions.</p>
 <p><strong>EEGManySteps</strong> differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results.</p>
-<p>To achieve this, we will standardize data acquisition and analysis protocols, allowing us to integrate datasets from different sources. Our goal is to identify which datasets are compatible and determine the most influencing factors for analyzing gait-related EEG activity.</p>
-</section>
+<p>The project name <strong>“EEGManySteps”</strong> is a reflection of the initiative’s goal to explore the various steps involved in mobile EEG research. MoBI data analysis is a complex process that involves multiple stages, from data acquisition to final interpretation. By examining the impact of different choices at each step, <strong>EEGManySteps</strong> aims to identify influenceing factors for conducting reliable and reproducible EEG studies in mobile environments.</p>
 <section id="methodology" class="level2">
 <h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
 <ol type="1">
-<li><p><strong>Data Sources</strong>: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. These datasets will be selected based on their relevance to gait-related studies and their potential for integration.</p></li>
-<li><p><strong>Standardization</strong>: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the Brain Imaging Data Structure (BIDS) format.</p></li>
-<li><p><strong>Data Format</strong>: All data will be converted to the BIDS format and made available on OpenNeuro, an open-access database that supports the sharing and re-use of neuroimaging data. This will enhance the accessibility and utility of the data for future research.</p></li>
-<li><p><strong>Community Engagement</strong>: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different EEG setups impact findings.</p></li>
+<li><p><strong>Data Sources</strong>: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories.</p></li>
+<li><p><strong>Standardization</strong>: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the <a href="https://bids-specification.readthedocs.io/en/stable/">Brain Imaging Data Structure (BIDS)</a> format for <a href="https://www.nature.com/articles/s41597-019-0104-8">EEG</a>, <a href="https://www.nature.com/articles/s41597-024-03559-8">Motion</a> and potentially EMG data.</p></li>
+<li><p><strong>Analysis</strong>: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different setups and pipelines impact research findings.</p></li>
 </ol>
-</section>
-<section id="expected-outcomes-and-future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="expected-outcomes-and-future-directions">Expected Outcomes and Future Directions</h2>
-<p><strong>EEGManySteps</strong> aims to achieve several key outcomes:</p>
-<ul>
-<li><strong>Enhanced Understanding</strong>: Gain insights into the variability of EEG results across different experimental setups, with a focus on mobile brain imaging and gait-related components.</li>
-<li><strong>Standardized Protocols</strong>: Develop and refine protocols for integrating EEG data from various sources, contributing to more consistent and reliable EEG research practices.</li>
-<li><strong>Open-Access Database</strong>: Create a large, open-access database of EEG data that will serve as a valuable resource for the neuroscience community, enabling further exploration and validation of findings.</li>
-</ul>
-</section>
-<section id="future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
-<p>Moving forward, <strong>EEGManySteps</strong> aspires to:</p>
-<ul>
-<li><strong>Expand Scope</strong>: Include additional datasets and experimental paradigms to broaden the understanding of EEG variability in mobile applications.</li>
-<li><strong>Foster Collaboration</strong>: Promote the formation of multi-laboratory collaborations to tackle new challenges in EEG research, enhancing the overall robustness of the field.</li>
-</ul>
-<p>Through these efforts, <strong>EEGManySteps</strong> aims to contribute significantly to the field of mobile brain imaging, driving advancements in research methodologies and fostering a culture of inclusive, high-powered collaborations.</p>
 </section>
 </section>
 <section id="organisation" class="level1">
 <h1>Organisation</h1>
-<p>The EEGManySteps project is lead by a steering commitee consisting of experienced researchers from the MoBI community. The work of the steering commitee is supported by an advisory board of experts from the field. Additionally, there are 5 work packages (WPs) which take care of specific tasks.</p>
-<section id="potential-advisory-board" class="level2">
-<h2 class="anchored" data-anchor-id="potential-advisory-board">Potential Advisory Board</h2>
-<ul>
-<li><a href="mailto:bettina.wollesen@uni-hamburg.de?subject=EEGManySteps">Bettina Wollesen</a></li>
-<li><a href="mailto:wascher@ifado.de?subject=EEGManySteps">Edmund Wascher</a></li>
-<li><a href="mailto:?subject=EEGManySteps">Fiorenzo Artoni</a></li>
-<li><a href="mailto:?subject=EEGManySteps">Janna Protzak</a></li>
-<li><a href="mailto:?subject=EEGManySteps">John Iversen</a></li>
-<li><a href="mailto:klaus.gramann@tu-berlin.de?subject=EEGManySteps">Klaus Gramann</a></li>
-<li><a href="mailto:mathias.vukelic@iao.fraunhofer.de?subject=EEGManySteps">Mathias Vukelic</a></li>
-<li><a href="mailto:pierfilippo.Desanctis@einstein.yu.edu?subject=EEGManySteps">Pierfilippo De Sanctis</a></li>
-<li><a href="mailto:stefan.debener@uol.de?subject=EEGManySteps">Stefan Debener</a></li>
-</ul>
-</section>
+<p>The EEGManySteps project is lead by a <a href="./team.html#steering-committee-members">steering commitee</a> consisting of experienced researchers from the MoBI community which will handle the day-to-day tasks and take over responsibilities in each work package. The work of the steering commitee is overseen by an <a href="./team.html#advisory-board-members">advisory board</a> of experts from the field. Currently we drafted a proposal of 5 work packages (WPs) which take care of specific tasks.</p>
 <section id="workpackages-wps" class="level2">
 <h2 class="anchored" data-anchor-id="workpackages-wps">Workpackages (WPs)</h2>
-<ol type="1">
+<ol start="0" type="1">
+<li>Define Goals</li>
 <li>Experiment protocols and data collection</li>
 <li>Data curation</li>
 <li>Preprocessing</li>
 <li>Analysis</li>
-<li>Future recommendations</li>
 </ol>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -238,30 +198,33 @@ ul.task-list li input[type="checkbox"] {
 <pre class="mermaid mermaid-js">graph TD
     style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
     style S fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
+    style B0 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+
 
     A[ Advisory Board]
     S[Steering Committee]
+    B0[WP0: Define Goals]
     B1[WP1: Experiment Protocols&lt;br&gt;and Data Collection]
     B2[WP2: Data Curation]
     B3[WP3: Preprocessing]
     B4[WP4: Analysis]
-    B5[WP5: Future Recommendations]
 
     A &lt;--&gt; S
+    A --&gt; B0
+    S --&gt; B0
     S --&gt; B1
     S --&gt; B2
     S --&gt; B3
     S --&gt; B4
-    S --&gt; B5
+
     B1 --&gt; B2
     B2 --&gt; B3
     B3 --&gt; B4
-    B4 --&gt; B5
+
     
 
 </pre>
@@ -270,6 +233,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<p><strong>Develop open-source tools</strong>: Building upon the project’s findings, EEGManySteps could contribute to the development of open-source software pipelines specifically tailored for mobile EEG data analysis. These tools would facilitate consistent processing and analysis across research laboratories, enhancing the reproducibility and comparability of MoBI studies.</p>
+<p><strong>Investigate individual differences</strong>: Future studies could explore how factors like demographics, health conditions, or individual cognitive styles impact the interpretation of MoBI data. This information would be crucial for future research and interventions based on individual variations. By understanding how individual differences influence brain activity in mobile settings, researchers can develop more targeted and effective applications of MoBI technology.</p>
+<p><strong>Create educational resources</strong>: To promote the adoption of standardized methodologies and accelerate advancements in the field, EEGManySteps could develop educational resources and workshops to teach researchers on conducting reliable and reproducible MoBI studies. These resources could include online tutorials, hands-on training sessions, and best practices guidelines.</p>
 </section>
 </section>
 <section id="related-projects" class="level1">

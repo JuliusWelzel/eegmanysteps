@@ -8,14 +8,14 @@ The **EEGManySteps** initiative aims to address these issues by investigating ho
 We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging.
 
 # Project
-EEGManySteps is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. The project is in its early stages and is currently being shaped by the community. The initiative is open to all researchers who are interested in contributing to the project. We are currently forming the decision-making structure of the initiative, which may change through further open discussions.
+**EEGManySteps** is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. The project is in its early stages and is currently being shaped by the community. The initiative is open to all researchers who are interested in contributing to the project. We are currently forming the decision-making structure of the initiative, which may change through further open discussions.
 
 **EEGManySteps** differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results. 
 
 The project name **"EEGManySteps"** is a reflection of the initiative's goal to explore the various steps involved in mobile EEG research. MoBI data analysis is a complex process that involves multiple stages, from data acquisition to final interpretation. By examining the impact of different choices at each step, **EEGManySteps** aims to identify influenceing factors for conducting reliable and reproducible EEG studies in mobile environments. 
 
 
-## Methodology
+# Methodology
 
 1. **Data Sources**: We will utilize a mix of preexisting EEG datasets and new data collected from participating laboratories. 
 

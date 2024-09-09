@@ -3,13 +3,33 @@ title: "EEGManySteps Initiative Collaboration Invitation"
 date: "08/12/2024"
 ---
 
+## Kick-off Meeting in September
+We had the first meeting of the **EEGManySteps** initiative on September 5th, 2024. The meeting was attended by 21 participants. The meeting was an opportunity to introduce the initiative, recap what happend since MoBI 2024, discuss the roles of the Steering Committee and Advisory Board, and plan the next steps. The meeting slides can be found [here](https://github.com/JuliusWelzel/eegmanysteps/blob/665fd64f92468f0cacaa504ed18159cd93f128b5/files/slides_kickoff.pdf) and the minutes [here](https://docs.google.com/document/d/1JZ6axf8kW_PU4JE-0fuq0510ktJEFYTDPT0pab_cO0M/edit?usp=sharing).
+
+**Next steps**: 
+
+- Ask for participation via mailing lists (EEGLab, fieldtrip, MNE)
+- Open goal proposals
+- Steering Committee and Advisory Board will shape goals
+- Steering Committee defines WPs which can address the goals
+- Identify potential funding opportunities
+
+**Planned milestones**:
+
+- Position paper (2024/2025)
+- Apply for funding (early 2025)
+
+
+--- 
+
+## Start of the Initiative
 We invite you to collaborate on the **EEGManySteps** initiative, aimed at understanding how different setups in mobile electroencephalography (EEG) experiments influence the results. EEGManySteps is an international, inter-institute effort focused on collecting and analyzing EEG data across multiple laboratories to investigate these influences, starting with a specific focus on gait-related features. 
 
 We are currently forming the decision-making structure of the initiative, which may change through further open discussions.
 
 ### How to Participate
 
-Please let us know via email ([eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com)) by **August 30th** if you would like to assume one of the following roles:
+Please let us know via email ([eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com)) if you would like to assume one of the following roles:
 
 1. **Steering Committee Member**
 2. **Advisory Board Member**
@@ -21,12 +41,12 @@ Each role is described below. Please note that the roles of Steering Committee M
 ### Tentative Role Definitions
 
 **Steering Committee Members**  
-Expected to attend monthly meetings and take on specific tasks within the project.  
-*Minimal requirement: Authorship in one or more peer-reviewed MoBI paper or extensive experience in similar open science projects.*
+Expected to attend monthly meetings and take on specific tasks within the project.
+*Minimal requirement: Authorship in one or more peer-reviewed MoBI paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
 
-**Advisory Board Members**  
-Provide background support and feedback during (bi-)annual meetings to guide the project's direction.  
-*Minimal requirement: First or last author in a peer-reviewed MoBI/Biomechanics paper or extensive experience in similar open science projects.*
+**Advisory Board Members:**
+Provide background support and feedback during quarterly/biannual meetings to guide the project’s direction.
+*Minimal requirement: First or last author in a peer-reviewed MoBI/Biomechanics paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
 
 **Data Set Contributors**  
 Provide access to EEG datasets recorded in mobile settings. Detailed requirements are still to be determined.  

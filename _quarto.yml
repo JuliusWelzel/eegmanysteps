@@ -7,12 +7,12 @@ website:
     left:
       - href: index.qmd
         text: Overview
-      - href: labs.qmd
-        text: Contributing Labs
-      - href: datasets.qmd
-        text: Datasets
       - href: news.qmd
         text: News
+      - href: team.qmd
+        text: Team
+      - href: datasets.qmd
+        text: Datasets
 
 format:
   html:

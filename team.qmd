@@ -1,0 +1,34 @@
+---
+title: "EEGManySteps - Team"
+---
+
+This page serves an an overview of individuals who have agreed to support to the **EEGManySteps** project.
+The definition of roles and responsibilities can be found at the bottom of this page.
+
+## Steering Committee Members
+Aitana Grasso Cladera, Anna Wunderlich, Claudia Gianelli, Elena Cesnaite, Janna Protzak, Julius Welzel, Nadine Jacobsen, Sein Jeung, Yahya Seyed Shirazi, Yu-Fang Yang
+
+## Advisory Board Members
+Benedikt Ehinger, Dan Ferris, Edmund Wascher, Fiorenzo Artoni, John Iversen, Klaus Gramann, Mathias Vukelic, Pierfilippo De Sanctis, Scott Makeig, Stefan Debener, Tjeerd Boonstra, Tomer Yona, Bettina Wollesen
+
+
+## Role Definitions
+
+### Steering Committee 
+Expected to attend monthly meetings and take on specific tasks within the project.
+*Minimal requirement: Authorship in one or more peer-reviewed MoBI paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
+
+### Advisory Board 
+Provide background support and feedback during quarterly/biannual meetings to guide the project’s direction.
+*Minimal requirement: First or last author in a peer-reviewed MoBI/Biomechanics paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
+
+
+Some additional roles will become relevant later in the project:
+
+**[Data Set Contributors]**
+Provide access to EEG datasets recorded in mobile settings. Detailed requirements are still to be determined.
+Minimal requirement: Responsible for the acquisition, curation, or formatting of mobile EEG data.
+
+**[Analysts]**
+Participate in analyzing specific research questions related to mobile EEG data.
+Minimal requirement: Experience with the analysis of biomechanical or MoBI data.

@@ -26,6 +26,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Klaus Gramann
 - John Iversen
 - Scott Makeig
+- Walter Maetzler
 - Pierfilippo De Sanctis
 - Mathias Vukelic
 - Edmund Wascher

@@ -86,18 +86,18 @@ graph TD
 [ICMoBI](https://www.icmobi.org/)         : This is a collaborative project dedicated to identifying Independent Components of Mobile Brain Imaging.      
 
 # Recommended Reading 
-Grasso-Cladera, A., Bremer, M., Ladouce, S., & Parada, F. (2024). A systematic review of mobile brain/body imaging studies using the P300 event-related potentials to investigate cognition beyond the laboratory. Cognitive, Affective, & Behavioral Neuroscience, 1-29.
+[Grasso-Cladera, A., Bremer, M., Ladouce, S., & Parada, F. (2024). A systematic review of mobile brain/body imaging studies using the P300 event-related potentials to investigate cognition beyond the laboratory. Cognitive, Affective, & Behavioral Neuroscience, 1-29.](https://link.springer.com/article/10.3758/s13415-024-01190-z)
 
-Richer, N., Bradford, J. C., & Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience & Biobehavioral Reviews, 105718.
+[Richer, N., Bradford, J. C., & Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience & Biobehavioral Reviews, 105718.](https://linkinghub.elsevier.com/retrieve/pii/S0149763424001878)
 
 [Trübutschek, D., Yang, Y. F., Gianelli, C., Cesnaite, E., Fischer, N. L., Vinding, M. C., ... & Nilsonne, G. (2024). EEGManyPipelines: A large-scale, grassroots multi-analyst study of electroencephalography analysis practices in the wild. Journal of cognitive neuroscience, 36(2), 217-224.](https://direct.mit.edu/jocn/article/36/2/217/118308/EEGManyPipelines-A-Large-scale-Grassroots-Multi)
 
-Niso, G., Romero, E., Moreau, J. T., Araujo, A., & Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.
+[Niso, G., Romero, E., Moreau, J. T., Araujo, A., & Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.](https://www.sciencedirect.com/science/article/pii/S1053811922008953)
 
-Niso, G., Krol, L. R., Combrisson, E., Dubarry, A. S., Elliott, M. A., François, C., ... & Chaumon, M. (2022). Good scientific practice in EEG and MEG research: Progress and perspectives. NeuroImage, 257, 119056.
+[Niso, G., Krol, L. R., Combrisson, E., Dubarry, A. S., Elliott, M. A., François, C., ... & Chaumon, M. (2022). Good scientific practice in EEG and MEG research: Progress and perspectives. NeuroImage, 257, 119056.](https://www.sciencedirect.com/science/article/pii/S1053811922001859)
 
-Jacobsen, N. S. J., Blum, S., Witt, K., & Debener, S. (2021). A walk in the park? Characterizing gait‐related artifacts in mobile EEG recordings. European Journal of Neuroscience, 54(12), 8421-8440.
+[Jacobsen, N. S. J., Blum, S., Witt, K., & Debener, S. (2021). A walk in the park? Characterizing gait‐related artifacts in mobile EEG recordings. European Journal of Neuroscience, 54(12), 8421-8440.](https://onlinelibrary.wiley.com/doi/full/10.1111/ejn.14965)
 
-Styles, S. J., Ković, V., Ke, H., & Šoškić, A. (2021). Towards ARTEM-IS: Design guidelines for evidence-based EEG methodology reporting tools. NeuroImage, 245, 118721.
+[Styles, S. J., Ković, V., Ke, H., & Šoškić, A. (2021). Towards ARTEM-IS: Design guidelines for evidence-based EEG methodology reporting tools. NeuroImage, 245, 118721.](https://www.sciencedirect.com/science/article/pii/S1053811921009939)
 
-Keil, A., Debener, S., Gratton, G., Junghöfer, M., Kappenman, E. S., Luck, S. J., ... & Yee, C. M. (2014). Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography. Psychophysiology, 51(1), 1-21.
+[Keil, A., Debener, S., Gratton, G., Junghöfer, M., Kappenman, E. S., Luck, S. J., ... & Yee, C. M. (2014). Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography. Psychophysiology, 51(1), 1-21.](https://onlinelibrary.wiley.com/doi/10.1111/psyp.12147)

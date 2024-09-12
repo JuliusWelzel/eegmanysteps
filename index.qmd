@@ -90,6 +90,8 @@ Grasso-Cladera, A., Bremer, M., Ladouce, S., & Parada, F. (2024). A systematic r
 
 Richer, N., Bradford, J. C., & Ferris, D. P. (2024). Mobile neuroimaging: What we have learned about the neural control of human walking, with an emphasis on EEG-based research. Neuroscience & Biobehavioral Reviews, 105718.
 
+[Trübutschek, D., Yang, Y. F., Gianelli, C., Cesnaite, E., Fischer, N. L., Vinding, M. C., ... & Nilsonne, G. (2024). EEGManyPipelines: A large-scale, grassroots multi-analyst study of electroencephalography analysis practices in the wild. Journal of cognitive neuroscience, 36(2), 217-224.](https://direct.mit.edu/jocn/article/36/2/217/118308/EEGManyPipelines-A-Large-scale-Grassroots-Multi)
+
 Niso, G., Romero, E., Moreau, J. T., Araujo, A., & Krol, L. R. (2023). Wireless EEG: A survey of systems and studies. NeuroImage, 269, 119774.
 
 Niso, G., Krol, L. R., Combrisson, E., Dubarry, A. S., Elliott, M. A., François, C., ... & Chaumon, M. (2022). Good scientific practice in EEG and MEG research: Progress and perspectives. NeuroImage, 257, 119056.

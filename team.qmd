@@ -24,6 +24,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Benedikt Ehinger
 - Dan Ferris
 - Klaus Gramann
+- Barbara Händel
 - John Iversen
 - Scott Makeig
 - Walter Maetzler

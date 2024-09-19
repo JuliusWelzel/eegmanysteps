@@ -27,6 +27,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Klaus Gramann
 - Barbara Händel
 - John Iversen
+- Agatha Lenartowicz
 - Scott Makeig
 - Walter Maetzler
 - Pierfilippo De Sanctis

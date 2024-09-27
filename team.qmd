@@ -6,6 +6,7 @@ This page serves an an overview of individuals who have agreed to support to the
 The definition of roles and responsibilities can be found at the bottom of this page.
 
 ## (current) Steering Committee Members
+- Liyu Cao
 - Elena Cesnaite
 - Aitana Grasso Cladera
 - Claudia Gianelli
@@ -36,6 +37,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Bernadette van Wijk
 - Bettina Wollesen
 - Tomer Yona
+- Catharina Zich
 
 
 ## Role Definitions

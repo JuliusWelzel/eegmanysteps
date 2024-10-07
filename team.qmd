@@ -31,6 +31,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Agatha Lenartowicz
 - Scott Makeig
 - Walter Maetzler
+- Uroš Marušič
 - Pierfilippo De Sanctis
 - Mathias Vukelic
 - Edmund Wascher

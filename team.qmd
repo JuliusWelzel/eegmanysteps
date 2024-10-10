@@ -27,6 +27,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Dan Ferris
 - Klaus Gramann
 - Barbara Händel
+- Julia Kline
 - John Iversen
 - Agatha Lenartowicz
 - Scott Makeig

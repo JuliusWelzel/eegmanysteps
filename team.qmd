@@ -5,41 +5,41 @@ title: "EEGManySteps - Team"
 This page serves an an overview of individuals who have agreed to support to the **EEGManySteps** project.
 The definition of roles and responsibilities can be found at the bottom of this page.
 
-## (current) Steering Committee Members
-- Liyu Cao
-- Elena Cesnaite
-- Aitana Grasso Cladera
-- Claudia Gianelli
-- Nadine Jacobsen
-- Sein Jeung
-- Janna Protzak
-- Julian Reiser
-- Yahya Seyed Shirazi
-- Yu-Fang Yang
-- Julius Welzel
-- Anna Wunderlich
+## (current) Steering Committee Members (with affiliation)
+- Liyu Cao (Zhejiang University, China)
+- Elena Cesnaite (Münster University, Germany)
+- Aitana Grasso Cladera (Osnabrück University, Germany)
+- Claudia Gianelli (Università di Messina, Italy)
+- Nadine Jacobsen (Oldenburg University, Germany)
+- Sein Jeung (TU Berlin, Germany)
+- Janna Protzak (Emory University, Germany)
+- Julian Reiser (IfADO, Germany)
+- Yahya Seyed Shirazi (SCCN, USA)
+- Yu-Fang Yang (FU Berlin, Germany)
+- Julius Welzel (Kiel University, Germany)
+- Anna Wunderlich (TU Berlin, Germany)
 
-## (current) Advisory Board Members
-- Fiorenzo Artoni
-- Tjeerd Boonstra
-- Stefan Debener
-- Benedikt Ehinger
-- Dan Ferris
-- Klaus Gramann
-- Barbara Händel
-- Julia Kline
-- John Iversen
-- Agatha Lenartowicz
-- Scott Makeig
-- Walter Maetzler
-- Uroš Marušič
-- Pierfilippo De Sanctis
-- Mathias Vukelic
-- Edmund Wascher
-- Bernadette van Wijk
-- Bettina Wollesen
-- Tomer Yona
-- Catharina Zich
+## (current) Advisory Board Members (with affiliation)
+- Fiorenzo Artoni (University of Geneva, Switzerland)
+- Tjeerd Boonstra (Maastricht University, Netherlands)
+- Stefan Debener (Oldenburg University, Germany)
+- Benedikt Ehinger (Stuttgart University, Germany)
+- Dan Ferris (University of Florida, USA)
+- Klaus Gramann (TU Berlin, Germany)
+- Barbara Händel (Würzburg University, Germany)
+- Julia Kline (National Institutes of Health, USA)
+- John Iversen (SCCN, USA)
+- Agatha Lenartowicz (UCLA, USA)
+- Scott Makeig (SCCN, USA)
+- Walter Maetzler (Kiel University, Germany)
+- Uroš Marušič (Science and Research Centre Koper, Slovenia)
+- Pierfilippo De Sanctis (Albert Einstein College of Medicine, USA)
+- Mathias Vukelic (Universität Stuttgart/Fraunhofer IAO, Germany)
+- Edmund Wascher (IfADO, Germany)
+- Bernadette van Wijk (Vrije Universiteit Amsterdam, Netherlands)
+- Bettina Wollesen (Hamburg University, Germany)
+- Tomer Yona (Israel Institute of Technology, Israel)
+- Catharina Zich (University College London, UK)
 
 
 ## Role Definitions

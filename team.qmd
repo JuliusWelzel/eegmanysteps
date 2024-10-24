@@ -37,7 +37,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Mathias Vukelic (Universität Stuttgart/Fraunhofer IAO, Germany)
 - Edmund Wascher (IfADO, Germany)
 - Bernadette van Wijk (Vrije Universiteit Amsterdam, Netherlands)
-- Bettina Wollesen (Hamburg University, Germany)
+- Bettina Wollesen (German Sport University Cologne, Germany)
 - Tomer Yona (Israel Institute of Technology, Israel)
 - Catharina Zich (University College London, UK)
 

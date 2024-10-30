@@ -12,6 +12,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Claudia Gianelli (Università di Messina, Italy)
 - Nadine Jacobsen (Oldenburg University, Germany)
 - Sein Jeung (TU Berlin, Germany)
+- Simon Ladouce (KU Leuven, Belgium)
 - Janna Protzak (Emory University, Germany)
 - Julian Reiser (IfADO, Germany)
 - Yahya Seyed Shirazi (SCCN, USA)

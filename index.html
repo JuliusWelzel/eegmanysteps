@@ -184,6 +184,7 @@ ul.task-list li input[type="checkbox"] {
 <ol start="0" type="1">
 <li>Define Goals</li>
 <li>Experiment protocols and data collection</li>
+<li>Dissemination</li>
 <li>Data curation</li>
 <li>Preprocessing</li>
 <li>Analysis</li>
@@ -201,15 +202,17 @@ ul.task-list li input[type="checkbox"] {
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
 
 
     A[ Advisory Board]
     S[Steering Committee]
     B0[WP0: Define Goals]
     B1[WP1: Experiment Protocols&lt;br&gt;and Data Collection]
-    B2[WP2: Data Curation]
-    B3[WP3: Preprocessing]
-    B4[WP4: Analysis]
+    B2[WP2: Dissemination]
+    B3[WP3: Data Curation]
+    B4[WP4: Preprocessing]
+    B5[WP5: Analysis]
 
     A &lt;--&gt; S
     A --&gt; B0
@@ -218,10 +221,11 @@ ul.task-list li input[type="checkbox"] {
     S --&gt; B2
     S --&gt; B3
     S --&gt; B4
+    S --&gt; B5
 
-    B1 --&gt; B2
     B2 --&gt; B3
     B3 --&gt; B4
+    B4 --&gt; B5
 
     
 

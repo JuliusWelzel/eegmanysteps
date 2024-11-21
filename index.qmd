@@ -31,9 +31,10 @@ The EEGManySteps project is lead by a [steering commitee](./team.qmd#steering-co
 ## Workpackages (WPs)
 0. Define Goals
 1. Experiment protocols and data collection
-2. Data curation
-3. Preprocessing
-4. Analysis
+2. Dissemination
+3. Data curation
+4. Preprocessing
+5. Analysis
 
 
 ```{mermaid}
@@ -45,15 +46,17 @@ graph TD
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
 
 
     A[ Advisory Board]
     S[Steering Committee]
     B0[WP0: Define Goals]
     B1[WP1: Experiment Protocols<br>and Data Collection]
-    B2[WP2: Data Curation]
-    B3[WP3: Preprocessing]
-    B4[WP4: Analysis]
+    B2[WP2: Dissemination]
+    B3[WP3: Data Curation]
+    B4[WP4: Preprocessing]
+    B5[WP5: Analysis]
 
     A <--> S
     A --> B0
@@ -62,10 +65,11 @@ graph TD
     S --> B2
     S --> B3
     S --> B4
+    S --> B5
 
-    B1 --> B2
     B2 --> B3
     B3 --> B4
+    B4 --> B5
 
     
 

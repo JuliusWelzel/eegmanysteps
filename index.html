@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c3c77b105560238580e247e348c84b8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -137,27 +137,12 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">EEGManySteps</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<p>==- title: “EEGManySteps” ==-</p>
 <section id="motivation-statement" class="level1">
 <h1>Motivation statement</h1>
 <p><strong>Mobile Brain Imaging (MoBI)</strong> is a burgeoning field enabling researchers to study brain activity in naturalistic settings. <strong>Electroencephalography (EEG)</strong>, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings. The <strong>EEGManySteps</strong> initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments. We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging.</p>
@@ -183,48 +168,51 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="workpackages-wps">Workpackages (WPs)</h2>
 <ol start="0" type="1">
 <li>Define Goals</li>
-<li>Dissemination</li>
 <li>Experiment protocols and data collection</li>
 <li>Data curation</li>
 <li>Preprocessing</li>
 <li>Analysis</li>
+<li>Dissemination</li>
 </ol>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph TD
-    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
-    style S fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px
-    style B0 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
-    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px
+<pre class="mermaid mermaid-js">graph LR
+    style A stroke-width:3px,corner-radius:5px
+    style S stroke-width:3px,corner-radius:5px
+    style B0 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
+    style B2 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
+    style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
+    style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
+    style B5 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
+    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px,fontSize:44
 
-
-    A[ Advisory Board]
+    A[Advisory Board]
     S[Steering Committee]
+
     B0[WP0: Define Goals]
-    B1[WP1: Dissemination]
-    B2[WP2: Experiment Protocols&lt;br&gt;and Data Collection]
-    B3[WP3: Data Curation]
-    B4[WP4: Preprocessing]
-    B5[WP5: Analysis]
+    B2[WP1: Experiment Protocols&lt;br&gt;and Data Collection]
+    B3[WP2: Data Curation]
+    B4[WP3: Preprocessing]
+    B5[WP4: Analysis]
+    B6[WP5: Dissemination]
+
+    subgraph B6[WP5: Dissemination]
+        direction LR
+        B0 --&gt; B2
+        B2 --&gt; B3
+        B3 --&gt; B4
+        B4 --&gt; B5
+    end
 
     A &lt;--&gt; S
-    A --&gt; B0
-    S --&gt; B0
-    S --&gt; B1
-    S --&gt; B2
-
-    B2 --&gt; B3
-    B3 --&gt; B4
-    B4 --&gt; B5
-
-    
+    S &lt;--&gt; B0
+    S &lt;--&gt; B2
+    S &lt;--&gt; B3
+    S &lt;--&gt; B4
+    S &lt;--&gt; B5
 
 </pre>
 </div>
@@ -344,8 +332,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -456,7 +442,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

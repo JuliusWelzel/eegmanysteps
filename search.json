@@ -58,21 +58,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EEGManySteps",
+    "title": "Motivation statement",
     "section": "",
-    "text": "Mobile Brain Imaging (MoBI) is a burgeoning field enabling researchers to study brain activity in naturalistic settings. Electroencephalography (EEG), a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings. The EEGManySteps initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments. We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging."
+    "text": "==- title: “EEGManySteps” ==-"
   },
   {
     "objectID": "index.html#workpackages-wps",
     "href": "index.html#workpackages-wps",
-    "title": "EEGManySteps",
+    "title": "Motivation statement",
     "section": "Workpackages (WPs)",
-    "text": "Workpackages (WPs)\n\nDefine Goals\nDissemination\nExperiment protocols and data collection\nData curation\nPreprocessing\nAnalysis\n\n\n\n\n\n\ngraph TD\n    style A fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px\n    style S fill:#F0F0F0,stroke:#333,stroke-width:1px,corner-radius:5px\n    style B0 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B1 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B2 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B3 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B4 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n    style B5 fill:#E8E8E8,stroke:#555,stroke-width:1px,corner-radius:5px\n\n\n    A[ Advisory Board]\n    S[Steering Committee]\n    B0[WP0: Define Goals]\n    B1[WP1: Dissemination]\n    B2[WP2: Experiment Protocols&lt;br&gt;and Data Collection]\n    B3[WP3: Data Curation]\n    B4[WP4: Preprocessing]\n    B5[WP5: Analysis]\n\n    A &lt;--&gt; S\n    A --&gt; B0\n    S --&gt; B0\n    S --&gt; B1\n    S --&gt; B2\n\n    B2 --&gt; B3\n    B3 --&gt; B4\n    B4 --&gt; B5"
+    "text": "Workpackages (WPs)\n\nDefine Goals\nExperiment protocols and data collection\nData curation\nPreprocessing\nAnalysis\nDissemination\n\n\n\n\n\n\ngraph LR\n    style A stroke-width:3px,corner-radius:5px\n    style S stroke-width:3px,corner-radius:5px\n    style B0 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px\n    style B2 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px\n    style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px\n    style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px\n    style B5 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px\n    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px,fontSize:44\n\n    A[Advisory Board]\n    S[Steering Committee]\n\n    B0[WP0: Define Goals]\n    B2[WP1: Experiment Protocols&lt;br&gt;and Data Collection]\n    B3[WP2: Data Curation]\n    B4[WP3: Preprocessing]\n    B5[WP4: Analysis]\n    B6[WP5: Dissemination]\n\n    subgraph B6[WP5: Dissemination]\n        direction LR\n        B0 --&gt; B2\n        B2 --&gt; B3\n        B3 --&gt; B4\n        B4 --&gt; B5\n    end\n\n    A &lt;--&gt; S\n    S &lt;--&gt; B0\n    S &lt;--&gt; B2\n    S &lt;--&gt; B3\n    S &lt;--&gt; B4\n    S &lt;--&gt; B5"
   },
   {
     "objectID": "index.html#future-directions",
     "href": "index.html#future-directions",
-    "title": "EEGManySteps",
+    "title": "Motivation statement",
     "section": "Future Directions",
     "text": "Future Directions\nDevelop open-source tools: Building upon the project’s findings, EEGManySteps could contribute to the development of open-source software pipelines specifically tailored for mobile EEG data analysis. These tools would facilitate consistent processing and analysis across research laboratories, enhancing the reproducibility and comparability of MoBI studies.\nInvestigate individual differences: Future studies could explore how factors like demographics, health conditions, or individual cognitive styles impact the interpretation of MoBI data. This information would be crucial for future research and interventions based on individual variations. By understanding how individual differences influence brain activity in mobile settings, researchers can develop more targeted and effective applications of MoBI technology.\nCreate educational resources: To promote the adoption of standardized methodologies and accelerate advancements in the field, EEGManySteps could develop educational resources and workshops to teach researchers on conducting reliable and reproducible MoBI studies. These resources could include online tutorials, hands-on training sessions, and best practices guidelines."
   }

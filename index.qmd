@@ -21,7 +21,7 @@ The project name **"EEGManySteps"** is a reflection of the initiative's goal to 
 
 2. **Standardization**: A protocol will be developed to assess and harmonize the data from various sources, ensuring that the collected data adheres to a common format. This protocol will facilitate the conversion of data to the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/en/stable/) format for [EEG](https://www.nature.com/articles/s41597-019-0104-8), [Motion](https://www.nature.com/articles/s41597-024-03559-8) and potentially EMG data.
 
-3. **Analysis**: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different  setups and pipelines impact research findings.
+3. **Analysis**: We invite contributions from researchers worldwide, including data, knowledge, and feedback. By fostering an inclusive and collaborative environment, we aim to build a comprehensive understanding of how different setups and pipelines impact research findings.
 
 
 # Organisation

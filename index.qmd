@@ -70,13 +70,6 @@ graph LR
 
 ```
 
-## Future Directions
-**Develop open-source tools**: Building upon the project's findings, EEGManySteps could contribute to the development of open-source software pipelines specifically tailored for mobile EEG data analysis. These tools would facilitate consistent processing and analysis across research laboratories, enhancing the reproducibility and comparability of MoBI studies.
-
-**Investigate individual differences**: Future studies could explore how factors like demographics, health conditions, or individual cognitive styles impact the interpretation of MoBI data. This information would be crucial for  future research and interventions based on individual variations. By understanding how individual differences influence brain activity in mobile settings, researchers can develop more targeted and effective applications of MoBI technology.
-
-**Create educational resources**: To promote the adoption of standardized methodologies and accelerate advancements in the field, EEGManySteps could develop educational resources and workshops to teach researchers on conducting reliable and reproducible MoBI studies. These resources could include online tutorials, hands-on training sessions, and best practices guidelines.
-
 
 # Related Projects 
 [ARTEM-IS](https://www.incf.org/sig/incf-working-group-artemis) : Design guidelines for evidence-based EEG methodology reporting tools.     

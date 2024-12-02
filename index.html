@@ -137,12 +137,27 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">EEGManySteps</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>==- title: “EEGManySteps” ==-</p>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <section id="motivation-statement" class="level1">
 <h1>Motivation statement</h1>
 <p><strong>Mobile Brain Imaging (MoBI)</strong> is a burgeoning field enabling researchers to study brain activity in naturalistic settings. <strong>Electroencephalography (EEG)</strong>, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings. The <strong>EEGManySteps</strong> initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments. We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging.</p>
@@ -166,14 +181,13 @@ ul.task-list li input[type="checkbox"] {
 <p>The EEGManySteps project is lead by a <a href="./team.html#steering-committee-members">steering commitee</a> consisting of experienced researchers from the MoBI community which will handle the day-to-day tasks and take over responsibilities in each work package. The work of the steering commitee is overseen by an <a href="./team.html#advisory-board-members">advisory board</a> of experts from the field. Currently we drafted a proposal of 5 work packages (WPs) which take care of specific tasks.</p>
 <section id="workpackages-wps" class="level2">
 <h2 class="anchored" data-anchor-id="workpackages-wps">Workpackages (WPs)</h2>
-<ol start="0" type="1">
-<li>Define Goals</li>
-<li>Experiment protocols and data collection</li>
-<li>Data curation</li>
-<li>Preprocessing</li>
-<li>Analysis</li>
-<li>Dissemination</li>
-</ol>
+<ul>
+<li>WP1. Aquisition procotols (Identify existing public datasets and reach out to authors if data has not been shared)</li>
+<li>WP2. Data collection (Design final protocol and manual for data collection and help with experimental setups)</li>
+<li>WP3. Data curation (Convert all existing dataset to BIDS (EEG &amp; Motion) and identify and parameterize covariates)</li>
+<li>WP4. Analysis</li>
+<li>WP5. Dissemination</li>
+</ul>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -182,7 +196,6 @@ ul.task-list li input[type="checkbox"] {
 <pre class="mermaid mermaid-js">graph LR
     style A stroke-width:3px,corner-radius:5px
     style S stroke-width:3px,corner-radius:5px
-    style B0 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
@@ -192,26 +205,22 @@ ul.task-list li input[type="checkbox"] {
     A[Advisory Board]
     S[Steering Committee]
 
-    B0[WP0: Define Goals]
-    B2[WP1: Experiment Protocols&lt;br&gt;and Data Collection]
-    B3[WP2: Data Curation]
-    B4[WP3: Preprocessing]
+    B2[WP1: Aquisition procotols]
+    B3[WP2: Data collection]
+    B4[WP3: Data curation]
     B5[WP4: Analysis]
     B6[WP5: Dissemination]
 
     subgraph B6[WP5: Dissemination]
         direction LR
-        B0 --&gt; B2
-        B2 --&gt; B3
+        B2 --&gt; B4
         B3 --&gt; B4
         B4 --&gt; B5
     end
 
     A &lt;--&gt; S
-    S &lt;--&gt; B0
     S &lt;--&gt; B2
     S &lt;--&gt; B3
-    S &lt;--&gt; B4
     S &lt;--&gt; B5
 
 </pre>

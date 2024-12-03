@@ -3,9 +3,9 @@ title: "EEGManySteps"
 ==-
 
 #  Motivation statement 
-**Mobile Brain Imaging (MoBI)** is a burgeoning field enabling researchers to study brain activity in naturalistic settings. **Electroencephalography (EEG)**, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings.
+**Mobile brain/body imaging (MoBI)** is a burgeoning field enabling researchers to study brain activity in naturalistic settings. **Electroencephalography (EEG)**, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings.
 The **EEGManySteps** initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments.
-We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging.
+We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of MoBI.
 
 # Project
 **EEGManySteps** is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. The project is in its early stages and is currently being shaped by the community. The initiative is open to all researchers who are interested in contributing to the project. We are currently forming the decision-making structure of the initiative, which may change through further open discussions.

@@ -26,11 +26,11 @@ The project name **"EEGManySteps"** is a reflection of the initiative's goal to 
 
 # Organisation
 
-The EEGManySteps project is lead by a [steering commitee](./team.qmd#steering-committee-members) consisting of experienced researchers from the MoBI community which will handle the day-to-day tasks and take over responsibilities in each work package. The work of the steering commitee is overseen by an [advisory board](./team.qmd#advisory-board-members) of experts from the field. Currently we drafted a proposal of 5 work packages (WPs) which take care of specific tasks.
+The EEGManySteps project is lead by a [steering committee](./team.qmd#steering-committee-members) consisting of experienced researchers from the MoBI community which will handle the day-to-day tasks and take over responsibilities in each work package. The work of the steering committee is overseen by an [advisory board](./team.qmd#advisory-board-members) of experts from the field. Currently we drafted a proposal of 5 work packages (WPs) which take care of specific tasks.
 
 ## Workpackages (WPs)
 
-- WP1. Aquisition procotols (Identify existing public datasets and reach out to authors if data has not been shared)
+- WP1. Acquisition protocols (Identify existing public datasets and reach out to authors if data has not been shared)
 - WP2. Data collection (Design final protocol and manual for data collection and help with experimental setups)
 - WP3. Data curation (Convert all existing dataset to BIDS (EEG & Motion) and identify and parameterize covariates)
 - WP4. Analysis

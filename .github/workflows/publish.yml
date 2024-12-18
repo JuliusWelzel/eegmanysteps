@@ -17,6 +17,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Change to Quarto project directory
+        run: cd path/to/your/quarto/project
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:

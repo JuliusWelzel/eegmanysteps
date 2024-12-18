@@ -1,26 +1,32 @@
-project:
-  type: website
+name: Publish
 
-website:
-  title: "EEGManySteps"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Overview
-      - href: news.qmd
-        text: News
-      - href: team.qmd
-        text: Team
-      - href: datasets.qmd
-        text: Datasets
+on:
+  push:
+    branches:
+      - main
 
-format:
-  html:
-    theme: journal
-    css: styles.css
-    toc: true
-    grid:
-      sidebar-width: 50px
+jobs:
+  publish:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jupyter nbformat
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages

@@ -3,9 +3,9 @@ title: "EEGManySteps"
 ---
 
 #  Motivation statement 
-**Mobile Brain Imaging (MoBI)** is a burgeoning field enabling researchers to study brain activity in naturalistic settings. **Electroencephalography (EEG)**, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings.
+**Mobile brain/body imaging (MoBI)** is a burgeoning field enabling researchers to study brain activity in naturalistic settings. **Electroencephalography (EEG)**, a popular method for MoBI due to its portability, often faces challenges related to inconsistent experimental setups and data processing pipelines. This can hinder the reproducibility of findings.
 The **EEGManySteps** initiative aims to address these issues by investigating how different experimental setups and analysis methods can influence results. By understanding the impact of acquisition and analysis protocols, we seek to enhance the consistency and reliability of EEG research in mobile environments.
-We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of mobile brain imaging.
+We are committed to fostering Open Science by ensuring our research materials, including data sets and software, are publicly accessible and well-documented. This will enable other researchers to build upon our work, and contribute to the advancement of MoBI.
 
 # Project
 **EEGManySteps** is a community-driven initiative that arose from the direct needs of researchers. It is an inter-institute collaboration that is forming on the basis of mutual interest in the topic. The project is in its early stages and is currently being shaped by the community. The initiative is open to all researchers who are interested in contributing to the project. We are currently forming the decision-making structure of the initiative, which may change through further open discussions.
@@ -26,11 +26,11 @@ The project name **"EEGManySteps"** is a reflection of the initiative's goal to 
 
 # Organisation
 
-The EEGManySteps project is lead by a [steering commitee](./team.qmd#steering-committee-members) consisting of experienced researchers from the MoBI community which will handle the day-to-day tasks and take over responsibilities in each work package. The work of the steering commitee is overseen by an [advisory board](./team.qmd#advisory-board-members) of experts from the field. Currently we drafted a proposal of 5 work packages (WPs) which take care of specific tasks.
+The EEGManySteps project is lead by a [steering committee](./team.qmd#steering-committee-members) consisting of experienced researchers from the MoBI community which will handle the day-to-day tasks and take over responsibilities in each work package. The work of the steering committee is overseen by an [advisory board](./team.qmd#advisory-board-members) of experts from the field. Currently we drafted a proposal of 5 work packages (WPs) which take care of specific tasks.
 
 ## Workpackages (WPs)
 
-- WP1. Aquisition procotols (Identify existing public datasets and reach out to authors if data has not been shared)
+- WP1. Acquisition protocols (Identify existing public datasets and reach out to authors if data has not been shared)
 - WP2. Data collection (Design final protocol and manual for data collection and help with experimental setups)
 - WP3. Data curation (Convert all existing dataset to BIDS (EEG & Motion) and identify and parameterize covariates)
 - WP4. Analysis

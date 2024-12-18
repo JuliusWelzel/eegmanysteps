@@ -1,0 +1,27 @@
+Timestamp	1. Step-specific time-frequency pattern Summary: Gait events, such as initial and final contacts, will be derived from multiple datasets. Time-frequency decompositions locked to these events will be analyzed, with potentially influencing factors parameterized.	2. Characterization of gait artifacts across different systems Summary:  Based on known parameters for assessing signal quality during gait, we can assess whether and how gait-related artifacts vary across different hardware systems and laboratories.	3. Influence of preprocessing on EEG results during walking Summary:  Compare the  impact of various defendable  preprocessing  pipelines on gait-related spectral perturbations (GRSP) and event-related potentials (ERP) across multiple hardware setups and laboratories.	4. Gait-related modulation of secondary task correlates Summary:  Can we  replicate often- reported modulations of EEG dynamics underlying cognitive task performance, e.g. reduced P3 amplitudes during walking?	If you think there is a goal missing or goals should be different, please provide some explanation below:	Type of walking	Type of secondary task	If you think there is the secondary task should be different or another approach should be taken,  please provide some explanation below:	Please provide a rough estimate how many datasets with a new protocol your lab could provide (N=?):
+12/3/2024 15:14:45	5	5	5	5		Both are fine	Both are fine		50
+12/3/2024 15:15:04	5	3	5	3		Both are fine	Both are fine		2
+12/3/2024 15:16:29	3	4	5	4	With secondary task correlates we could also consider changes in time-frequency patterns with e.g. attention manipulations	Both are fine	Both are fine	Not sure what is asked here	20
+12/3/2024 15:17:07	4	5	3	4		Both are fine	Both are fine		0
+12/3/2024 15:19:08	4	4	5	5		Overground	Both are fine		2 (40 subjects)
+12/3/2024 15:19:28	4	3	5	5	as discussed, specifically address overground and treadmill walking	Overground, should we think of VR treadmills that allow stepping in place? (omnidirectional treadmills)	Both are fine		1-2
+12/3/2024 15:20:16	4	3	4	2		Overground	Both are fine		not sure right now
+12/3/2024 15:21:15	4	5	5	4		Both are fine	Both are fine		
+12/3/2024 15:21:48	4	5	4	4	We identified some problems if EEG data needs to be cleared according to cut noisy data- what happens with the synchronization if noisy EEG data is deleted?	Both are fine	Both are fine		it depends on the time schedule- maybe 30?
+12/3/2024 15:26:07	5	4	4	5	For a first goal it seems important to understand the sources & types, extent (evoked, background, duration, single trial vs averaged) of gait-related responses.	Overground	Both are fine	It's hard to answer this without a goal stated.	1
+12/3/2024 15:27:17	5	4	4	5		Both are fine	Both are fine		
+12/3/2024 15:27:48	5	1	5	1	Use machine learning to describe the prediction of the different gait related processes, e.g. gait related pertubations from the experiment - encoding approach.	Both are fine	Both are fine		
+12/3/2024 15:30:26	4	4	2	4		Both are fine	Both are fine		2
+12/3/2024 15:30:59	5	5	4	3		Both are fine	Both are fine		1
+12/3/2024 15:52:22	4	3	4	4		Both are fine	Both are fine		
+12/3/2024 15:58:13	5	5	5	5		Both are fine	Both are fine		1-2
+12/3/2024 16:00:53	4	4	5	4	I think defining a broader, more general, goal would be helpful to promote the project and move forward. What's the overarching goal? 	Both are fine	Visual, Auditory, Both are fine		
+12/3/2024 16:03:11	5	3	4	5		Overground, Generally fine with both, but we do not have a treadmill and would need to rely on a cooperation with another department	Auditory		not the PI, but I think we could record 10 to 20 participants
+12/4/2024 2:17:37	4	4	5	3		Both are fine	Both are fine		30
+12/4/2024 10:16:50	3	5	4	5		Both are fine	Auditory		4
+12/5/2024 15:05:13	4	5	4	4		Overground	Both are fine	conversation	?
+12/5/2024 15:13:31	4	5	4	3		Overground	Auditory		40
+12/6/2024 11:13:11	2	3	5	5	"1. Step-specific time-frequency pattern" Is not a goal perse but an outcome measure for answering interesting research questions (such as 3, 4).  "2. Characterization of gait artifacts across different systems" might be difficult to really pinpoint as there are multiple factors that are different between labs and different subjects are tested. If you're looking for a manipulation that could be performed at all sites and that would be reasonably comparable everywhere, perhaps a manipulation of  'gait speed' is of interest. That might also give more insights into 2. the specific artifacts that might be expected under different conditions, and 1. the parameters that affect the time-frequency representation. Another interesting comparison could be treadmill-based vs overground walking, which would also relate to 1 and 2.	Treadmill	Walking speed - see previous answer	Manipulation of walking speed - see previous answer	
+12/9/2024 14:50:59	5	5	5	5		Overground	Auditory		depends on the protocol and timeframe, but N>10
+12/16/2024 15:05:04	5	5	5	5		Both are fine	Auditory		20 - 40
+12/18/2024 9:34:22	5	3	5	4		Both are fine	Both are fine	Motor-motor task (crossing boxes)	20

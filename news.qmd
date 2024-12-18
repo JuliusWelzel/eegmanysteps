@@ -1,26 +1,71 @@
 ---
 title: "EEGManySteps Initiative Collaboration Invitation"
 date: "08/12/2024"
+jupyter: python3
+execute:
+  echo: false
 ---
 
 ## Goals definition with AB
-We had the second meeting of SC and AB December 3rd, 2024. TThe meeting used as an opporutniy to discuss the goals, and refine the scope of the project. The meeting slides can be found [here](https://github.com/JuliusWelzel/eegmanysteps/blob/665fd64f92468f0cacaa504ed18159cd93f128b5/files/slides_kickoff.pdf) and the minutes [here](https://docs.google.com/document/d/1JZ6axf8kW_PU4JE-0fuq0510ktJEFYTDPT0pab_cO0M/edit?usp=sharing).
+We had the second meeting of SC and AB December 3rd, 2024. TThe meeting used as an opporutniy to discuss the goals, and refine the scope of the project. Additionally members of SC and AB were invited to complete a sruvey on the project goals. A summary of the results can be found below, based on the raw data [here](https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/EEGManySteps%20_%20AB%20meeting%20survey.tsv).
+The meeting slides can be found [here](https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/slides_ab_meeting_12_24.pdf).
 
-Additionally members of SC and AB were invited to complete a sruvey on the project goals. A summary of the results can be found below, based on the raw data [here]().
 
-**Next steps**: 
+**Summary survey**: 
 
-- Ask for participation via mailing lists (EEGLab, fieldtrip, MNE)
-- Open goal proposals
-- Steering Committee and Advisory Board will shape goals
-- Steering Committee defines WPs which can address the goals
-- Identify potential funding opportunities
+```{python}
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
 
-**Planned milestones**:
+# Load the data
+url = "https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/EEGManySteps%20_%20AB%20meeting%20survey.tsv?raw=true"
+data = pd.read_csv(url, sep='\t')
+# Select the first 4 patterns
+patterns = data.columns[:5]
 
-- Position paper (2024/2025)
-- Apply for funding (early 2025)
+# Print a summary of the data
+print("\n".join([
+    "This survey was conducted during the AB meeting.",
+    "The participants rated the following patterns:",
+    f"{'\n '.join(data.columns[1:5])}.",
+    "",
+    "The following statistics were calculated:",
+    f"Number of participants: {len(data)}",
+    f"Average rating for each pattern:",
+    f"{'\n '.join([f'{goal.split(':')[0]}: \n Average rating {data[goal].mean():.2f}' for goal in data.columns[1:5]])}",
+    "",
+]))
 
+# print the question title
+print("\n",
+    "Please provide a rough estimate how many datasets with \n a new protocol your lab could provide (N=?)",
+    "\n"
+    )
+# print estimate density distribution for potential pariticpants to be collected
+sns.set(style="whitegrid")
+plt.figure(figsize=(10, 6))
+
+# retrieve n 
+n_subj = data["Please provide a rough estimate how many datasets with a new protocol your lab could provide (N=?):"].fillna("")
+
+# extract digits from pd series and sum if multiple digits are identified
+def extract_digits(s):
+    digits = ''.join(filter(str.isdigit, str(s)))
+    if digits:
+        # Split the string by non-digit characters and take the last number
+        numbers = ''.join(c if c.isdigit() else ' ' for c in str(s)).split()
+        return int(numbers[-1]) if numbers else np.nan  
+    return np.nan
+
+n_subj.apply(extract_digits)
+
+# plot the distribution
+sns.histplot(n_subj.apply(extract_digits), bins=range(0, 100, 5), kde=True)
+plt.xlabel("Estimated number of participants")
+plt.xlim(0, 60)
+```
 
 --- 
 

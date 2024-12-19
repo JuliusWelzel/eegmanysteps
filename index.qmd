@@ -35,6 +35,7 @@ The EEGManySteps project is lead by a [steering committee](./team.qmd#steering-c
 - WP3. Data curation (Convert all existing dataset to BIDS (EEG & Motion) and identify and parameterize covariates)
 - WP4. Analysis
 - WP5. Dissemination
+- WP6. Funding
 
 
 ```{mermaid}
@@ -55,6 +56,7 @@ graph LR
     B4[WP3: Data curation]
     B5[WP4: Analysis]
     B6[WP5: Dissemination]
+    B7[WP6: Funding]
 
     subgraph B6[WP5: Dissemination]
         direction LR
@@ -67,6 +69,8 @@ graph LR
     S <--> B2
     S <--> B3
     S <--> B5
+    A <--> B7
+    S <--> B7
 
 ```
 

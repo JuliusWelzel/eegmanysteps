@@ -42,6 +42,7 @@ The EEGManySteps project is lead by a [steering committee](./team.qmd#steering-c
 graph LR
     style A stroke-width:3px,corner-radius:5px
     style S stroke-width:3px,corner-radius:5px
+    style B1 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
@@ -75,8 +76,7 @@ graph LR
     S <--> B5
     A <--> B6
     S <--> B6
-    A <--> B7
-    S <--> B7
+
 
 ```
 

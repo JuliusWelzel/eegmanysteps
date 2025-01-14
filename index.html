@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,7 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c3c77b105560238580e247e348c84b8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -184,9 +184,10 @@ ul.task-list li input[type="checkbox"] {
 <li>WP1. Acquisition protocols (Identify existing public datasets and reach out to authors if data has not been shared)</li>
 <li>WP2. Data collection (Design final protocol and manual for data collection and help with experimental setups)</li>
 <li>WP3. Data curation (Convert all existing dataset to BIDS (EEG &amp; Motion) and identify and parameterize covariates)</li>
-<li>WP4. Analysis</li>
-<li>WP5. Dissemination</li>
-<li>WP6. Funding</li>
+<li>WP4. Analysis (Oversee the development of pipelines for the analysis of all datasets)</li>
+<li>WP5. Dissemination (Organize paper writing, create tutorials, and help with potential workshops)</li>
+<li>WP6. Funding (Identify funding opportunities and write grant proposals)</li>
+<li>WP7. Research questions (Oversee the development of research questions within the project and support potential collaborations)</li>
 </ul>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -200,29 +201,35 @@ ul.task-list li input[type="checkbox"] {
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B5 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px,fontSize:44
+    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px
+    style B7 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
 
     A[Advisory Board]
     S[Steering Committee]
 
-    B2[WP1: Aquisition procotols]
-    B3[WP2: Data collection]
-    B4[WP3: Data curation]
-    B5[WP4: Analysis]
-    B6[WP5: Dissemination]
-    B7[WP6: Funding]
+    B1[WP1: Aquisition procotols]
+    B2[WP2: Data collection]
+    B3[WP3: Data curation]
+    B4[WP4: Analysis]
+    B5[WP5: Dissemination]
+    B6[WP6: Funding]
+    B7[WP7: Research questions]
 
-    subgraph B6[WP5: Dissemination]
+    subgraph B7[WP7: Research questions]
         direction LR
-        B2 --&gt; B4
+        B1 --&gt; B3
+        B2 --&gt; B3
         B3 --&gt; B4
-        B4 --&gt; B5
     end
 
     A &lt;--&gt; S
+    S &lt;--&gt; B1
     S &lt;--&gt; B2
-    S &lt;--&gt; B3
+    S &lt;--&gt; B4
+    A &lt;--&gt; B5
     S &lt;--&gt; B5
+    A &lt;--&gt; B6
+    S &lt;--&gt; B6
     A &lt;--&gt; B7
     S &lt;--&gt; B7
 

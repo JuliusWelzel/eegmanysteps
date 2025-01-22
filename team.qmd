@@ -18,6 +18,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Yu-Fang Yang (FU Berlin, Germany)
 - Julius Welzel (Kiel University, Germany)
 - Anna Wunderlich (TU Berlin, Germany)
+- Sodiq Fakorede (Kansas Medical Center, USA)
 
 ## (current) Advisory Board Members (with affiliation)
 - Fiorenzo Artoni (University of Geneva, Switzerland)
@@ -42,6 +43,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Catharina Zich (University College London, UK)
 - Natalie Richter (University of Winnipeg, USA)
 - Claudia Gianelli (Università di Messina, Italy)
+- Xinyu Chen (Würzburg University, Germany)
 
 ## Role Definitions
 

@@ -33,44 +33,50 @@ The EEGManySteps project is lead by a [steering committee](./team.qmd#steering-c
 - WP1. Acquisition protocols (Identify existing public datasets and reach out to authors if data has not been shared)
 - WP2. Data collection (Design final protocol and manual for data collection and help with experimental setups)
 - WP3. Data curation (Convert all existing dataset to BIDS (EEG & Motion) and identify and parameterize covariates)
-- WP4. Analysis
-- WP5. Dissemination
-- WP6. Funding
-
+- WP4. Analysis (Oversee the development of pipelines for the analysis of all datasets)
+- WP5. Dissemination (Organize paper writing, create tutorials, and help with potential workshops)
+- WP6. Funding (Identify funding opportunities and write grant proposals)
+- WP7. Research questions (Oversee the development of research questions within the project and support potential collaborations)
 
 ```{mermaid}
 graph LR
     style A stroke-width:3px,corner-radius:5px
     style S stroke-width:3px,corner-radius:5px
+    style B1 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B2 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
     style B5 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px,fontSize:44
+    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px
+    style B7 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
 
     A[Advisory Board]
     S[Steering Committee]
 
-    B2[WP1: Aquisition procotols]
-    B3[WP2: Data collection]
-    B4[WP3: Data curation]
-    B5[WP4: Analysis]
-    B6[WP5: Dissemination]
-    B7[WP6: Funding]
+    B1[WP1: Aquisition procotols]
+    B2[WP2: Data collection]
+    B3[WP3: Data curation]
+    B4[WP4: Analysis]
+    B5[WP5: Dissemination]
+    B6[WP6: Funding]
+    B7[WP7: Research questions]
 
-    subgraph B6[WP5: Dissemination]
+    subgraph B7[WP7: Research questions]
         direction LR
-        B2 --> B4
+        B1 --> B3
+        B2 --> B3
         B3 --> B4
-        B4 --> B5
     end
 
     A <--> S
+    S <--> B1
     S <--> B2
-    S <--> B3
+    S <--> B4
+    A <--> B5
     S <--> B5
-    A <--> B7
-    S <--> B7
+    A <--> B6
+    S <--> B6
+
 
 ```
 

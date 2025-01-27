@@ -1,1 +1,1 @@
-Sitemap: https://JuliusWelzel.github.io/eegmanysteps/sitemap.xml
+Sitemap: https://EEGManySteps.github.io/eegmanysteps/sitemap.xml

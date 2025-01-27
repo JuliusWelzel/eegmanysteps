@@ -20,7 +20,7 @@ format:
     css: styles.css
     toc: true
     grid:
-      sidebar-width: 50px
+      sidebar-width: 40px
 
 execute:
   freeze: auto
